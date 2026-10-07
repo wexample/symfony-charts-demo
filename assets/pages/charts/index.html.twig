@@ -1,0 +1,98 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.line.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.line.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('line', {
+            categories: months,
+            series: [
+                { name: '@page::series.orders' | trans, values: orders },
+                { name: '@page::series.returns' | trans, values: returns },
+            ],
+        }, { smooth: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.area.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.area.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('area', {
+            categories: months,
+            series: [
+                { name: '@page::series.orders' | trans, values: orders },
+                { name: '@page::series.returns' | trans, values: returns, color: 'mint' },
+            ],
+        }, { stacked: true, smooth: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.bar.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.bar.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('bar', {
+            categories: months,
+            series: [{ name: '@page::series.revenue' | trans, values: revenue }],
+        }, { format: { style: 'currency', currency: 'EUR', decimals: 0 } }) }}
+    </div>
+
+    <h2>{{ '@page::section.horizontal.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.horizontal.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('bar', {
+            categories: months|slice(0, 6),
+            series: [
+                { name: '@page::series.orders' | trans, values: orders|slice(0, 6) },
+                { name: '@page::series.returns' | trans, values: returns|slice(0, 6) },
+            ],
+        }, { horizontal: true, stacked: true, height: '16rem' }) }}
+    </div>
+
+    <h2>{{ '@page::section.donut.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.donut.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('donut', {
+            categories: [
+                '@page::stage.weaving' | trans,
+                '@page::stage.finishing' | trans,
+                '@page::stage.waiting' | trans,
+                '@page::stage.shipping' | trans,
+            ],
+            series: [{ name: '@page::series.work_orders' | trans, values: [148, 96, 41, 23] }],
+        }, { height: '16rem' }) }}
+    </div>
+
+    <h2>{{ '@page::section.boxplot.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.boxplot.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('boxplot', {
+            categories: [
+                '@page::stage.weaving' | trans,
+                '@page::stage.finishing' | trans,
+                '@page::stage.waiting' | trans,
+                '@page::stage.shipping' | trans,
+            ],
+            series: [{ name: '@page::series.duration' | trans, values: durations }],
+        }, { format: { style: 'unit', unit: 'day', decimals: 1 } }) }}
+    </div>
+
+    <h2>{{ '@page::section.histogram.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.histogram.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('histogram', { samples: yields, bins: 12 }) }}
+    </div>
+
+    <h2>{{ '@page::section.endpoint.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.endpoint.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('line', {}, { source: output_chart }) }}
+    </div>
+
+    <h2>{{ '@page::section.empty.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.empty.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('line', { categories: [], series: [] }) }}
+    </div>
+{%- endblock -%}

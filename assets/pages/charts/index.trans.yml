@@ -1,0 +1,103 @@
+en:
+  page_title: Charts
+  page_icon: ph:bold/chart-line
+  intro: >-
+    The chart() function of symfony-charts-ds: ECharts drawn in svg, coloured
+    by the design system in both colour schemes, numbers and months written in
+    the page's language. Hover a chart for its exact values.
+  section:
+    line:
+      title: Line
+      description: Two series, smoothed. The legend shows as soon as there is more than one.
+    area:
+      title: Stacked area
+      description: The same series stacked; the second takes the mint of the categories.
+    bar:
+      title: Bars, in euros
+      description: format { style currency } — compact on the axis, whole in the tooltip.
+    horizontal:
+      title: Horizontal stacked bars
+      description: horizontal and stacked, for labels too long to stand under a bar.
+    donut:
+      title: Donut
+      description: How a total divides; the share of each part in the tooltip.
+    boxplot:
+      title: Box plot
+      description: >-
+        Durations per stage, from the raw samples: the quartiles are computed by
+        the component. A unit format writes the days.
+    histogram:
+      title: Histogram
+      description: Three hundred yields, in twelve bins of equal width.
+    endpoint:
+      title: Fed by the api
+      description: >-
+        Given a source instead of data: the chart reads the points of that chart
+        through the generated ChartPoint repository, from a provider the demo
+        declares — the road every entity list of the stack takes.
+    empty:
+      title: No data
+      description: A chart with nothing to draw says so instead of drawing empty axes.
+  series:
+    orders: Orders
+    returns: Returns
+    revenue: Revenue
+    work_orders: Work orders
+    duration: Duration
+  stage:
+    weaving: Weaving
+    finishing: Finishing
+    waiting: Waiting
+    shipping: Shipping
+
+fr:
+  page_title: Graphiques
+  page_icon: ph:bold/chart-line
+  intro: >-
+    La fonction chart() de symfony-charts-ds : ECharts dessiné en svg, coloré
+    par le design system dans les deux thèmes, nombres et mois écrits dans la
+    langue de la page. Survolez un graphique pour ses valeurs exactes.
+  section:
+    line:
+      title: Courbes
+      description: Deux séries, lissées. La légende s'affiche dès qu'il y en a plus d'une.
+    area:
+      title: Aires empilées
+      description: Les mêmes séries empilées ; la seconde prend le menthe des catégories.
+    bar:
+      title: Barres, en euros
+      description: format { style currency } — compact sur l'axe, complet dans l'infobulle.
+    horizontal:
+      title: Barres horizontales empilées
+      description: horizontal et stacked, pour des libellés trop longs sous une barre.
+    donut:
+      title: Anneau
+      description: Comment un total se répartit ; la part de chaque segment dans l'infobulle.
+    boxplot:
+      title: Boîte à moustaches
+      description: >-
+        Les durées par étape, depuis les échantillons bruts : le composant
+        calcule les quartiles. Un format d'unité écrit les jours.
+    histogram:
+      title: Histogramme
+      description: Trois cents rendements, en douze classes de même largeur.
+    endpoint:
+      title: Alimenté par l'api
+      description: >-
+        Une source au lieu des données : le graphique lit les points de ce
+        graphique par le repository ChartPoint généré, depuis un fournisseur que
+        la démo déclare — la route de toute liste d'entités de la stack.
+    empty:
+      title: Sans données
+      description: Un graphique sans rien à dessiner le dit, au lieu de tracer des axes vides.
+  series:
+    orders: Commandes
+    returns: Retours
+    revenue: Chiffre d'affaires
+    work_orders: Ordres de fabrication
+    duration: Durée
+  stage:
+    weaving: Tissage
+    finishing: Finition
+    waiting: Attente
+    shipping: Expédition

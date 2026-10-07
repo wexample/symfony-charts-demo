@@ -1,0 +1,47 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.capacity.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.capacity.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('capacity', {
+            categories: groups,
+            load: load,
+            capacity: capacity,
+        }, { format: { style: 'unit', unit: 'meter', decimals: 0 }, height: '20rem' }) }}
+    </div>
+
+    <h2>{{ '@page::section.forecast.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.forecast.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ chart('forecast', {
+            categories: months,
+            actual: actual,
+            forecast: forecast,
+            low: low,
+            high: high,
+            today: today,
+        }, { height: '20rem' }) }}
+    </div>
+
+    <h2>{{ '@page::section.sparkline.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.sparkline.description' | trans }}</div>
+    {#- The last three months are the window a relaunch is decided on. -#}
+    {{ data_table([
+        { key: 'sku', label: '@page::column.sku' | trans, cell: 'code', width: 's' },
+        { key: 'trend', label: '@page::column.orders' | trans, cell: 'html', width: 's' },
+        { key: 'average', label: '@page::column.average' | trans, cell: 'number', digits: 1 },
+        { key: 'available', label: '@page::column.available' | trans, cell: 'number', digits: 0 },
+    ], items|map(item => {
+        sku: item.sku,
+        trend: chart_sparkline(item.orders, { active: [3, 5], label: '@page::column.orders' | trans }),
+        average: item.average,
+        available: item.available,
+    }), {
+        striped: true,
+    }) }}
+{%- endblock -%}

@@ -1,0 +1,60 @@
+en:
+  page_title: Steering
+  page_icon: ph:bold/gauge
+  intro: >-
+    The charts a production steering screen is made of, on made-up figures:
+    the load of each loom group against its capacity, the output against its
+    forecast, and the orders of each item in its table row.
+  section:
+    capacity:
+      title: Load against capacity
+      description: >-
+        A bar per group, its capacity as a tick across it. Above 85 % the bar
+        warns, above 100 % it is overloaded: the thresholds are an option.
+    forecast:
+      title: Actual against forecast
+      description: >-
+        The actual line stops at today; the forecast carries on dashed, inside
+        its confidence band.
+    sparkline:
+      title: A sparkline per row
+      description: >-
+        Six months of orders drawn on the server, the last three highlighted: a
+        table of three thousand rows runs no script for them.
+  column:
+    sku: Item
+    orders: Orders, 6 months
+    average: Average
+    available: Available
+
+fr:
+  page_title: Pilotage
+  page_icon: ph:bold/gauge
+  intro: >-
+    Les graphiques d'un écran de pilotage de production, sur des chiffres
+    inventés : la charge de chaque groupe de métiers face à sa capacité, la
+    production face à sa prévision, et les commandes de chaque article dans sa
+    ligne de tableau.
+  section:
+    capacity:
+      title: Charge et capacité
+      description: >-
+        Une barre par groupe, sa capacité en trait vertical. Au-delà de 85 % la
+        barre avertit, au-delà de 100 % elle est en surcharge : les seuils sont
+        une option.
+    forecast:
+      title: Réel et prévision
+      description: >-
+        La courbe réelle s'arrête à aujourd'hui ; la prévision continue en
+        pointillés, dans son intervalle de confiance.
+    sparkline:
+      title: Une sparkline par ligne
+      description: >-
+        Six mois de commandes dessinés côté serveur, les trois derniers mis en
+        évidence : un tableau de trois mille lignes n'exécute aucun script pour
+        elles.
+  column:
+    sku: Article
+    orders: Commandes, 6 mois
+    average: Moyenne
+    available: Disponible
