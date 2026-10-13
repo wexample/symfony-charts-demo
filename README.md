@@ -1,6 +1,6 @@
 # symfony-charts-demo
 
-Version: 2.0.1
+Version: 2.0.2
 
 ## What this package holds
 
@@ -43,7 +43,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-charts: >=2.0.0
 - wexample/symfony-charts-ds: >=2.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
 
