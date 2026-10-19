@@ -101,3 +101,91 @@ fr:
     finishing: Finition
     waiting: Attente
     shipping: Expédition
+
+zh:
+  page_title: 图表
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds 的 chart() 函数：用 svg 绘制的 ECharts，按照设计系统的配色方案着色，数字和月份使用页面语言书写。将鼠标悬停在图表上可查看其确切值。'
+  section:
+    line:
+      title: 线图
+      description: 两个系列，平滑处理。当有多个系列时，图例会显示。
+    area:
+      title: 堆叠区域
+      description: 同一系列堆叠；第二个系列取类别的最小值。
+    bar:
+      title: 柱状图（以欧元为单位）
+      description: '格式 { style currency } — 轴上紧凑，工具提示中为整数。'
+    horizontal:
+      title: 水平堆叠柱状图
+      description: 水平且堆叠，适用于标签过长以致无法放在柱子下方的情况。
+    donut:
+      title: 甜甜圈图
+      description: 总数的划分；工具提示中显示每个部分的份额。
+    boxplot:
+      title: 箱线图
+      description: 各阶段的持续时间，来自原始样本：四分位数由组件计算。单位格式以天为单位。
+    histogram:
+      title: 直方图
+      description: 三百个产出，分为十二个等宽的区间。
+    endpoint:
+      title: '由 API 提供数据'
+      description: '给定一个数据源而非数据：图表通过生成的 ChartPoint 仓库读取该图表的点，来自演示声明的提供者 — 堆栈中每个实体列表的路径。'
+    empty:
+      title: 无数据
+      description: 一个没有绘制内容的图表会表明这一点，而不是绘制空的坐标轴。
+  series:
+    orders: 订单
+    returns: 退货
+    revenue: 收入
+    work_orders: 工作订单
+    duration: 持续时间
+  stage:
+    weaving: 织造
+    finishing: ' finishing'
+    waiting: 等待
+    shipping: 运输
+
+ar:
+  page_title: المخططات
+  page_icon: 'ph:bold/chart-line'
+  intro: 'دالة chart() في symfony-charts-ds: المخططات الموجودة في svg، ملونة وفقًا لنظام التصميم في كلا نظامي الألوان، الأرقام والأشهر مكتوبة بلغة الصفحة. مرر فوق المخطط لرؤية قيمه الدقيقة.'
+  section:
+    line:
+      title: خط
+      description: 'سلسلتان، ملساء. تظهر الأسطورة بمجرد وجود أكثر من واحدة.'
+    area:
+      title: 'منطقة مكدسة'
+      description: 'نفس السلسلة مكدسة؛ الثانية تأخذ الحد الأدنى من الفئات.'
+    bar:
+      title: 'أشرطة، باليورو'
+      description: 'التنسيق { نمط العملة } — مضغوط على المحور، كامل في أداة التلميح.'
+    horizontal:
+      title: 'أشرطة أفقية مكدسة'
+      description: 'أفقية ومكدسة، لعلامات طويلة جدًا لتقف تحت شريط.'
+    donut:
+      title: دونات
+      description: 'كيف ينقسم الإجمالي؛ حصة كل جزء في أداة التلميح.'
+    boxplot:
+      title: 'مخطط الصندوق'
+      description: 'الأوقات لكل مرحلة، من العينات الخام: يتم حساب الربعيات بواسطة المكون. تنسيق الوحدة يكتب الأيام.'
+    histogram:
+      title: 'التوزيع التكراري'
+      description: 'ثلاثمائة عائد، في اثني عشر حاوية ذات عرض متساوي.'
+    endpoint:
+      title: 'مدعوم من واجهة برمجة التطبيقات'
+      description: 'يتم إعطاء مصدر بدلاً من البيانات: يقرأ المخطط النقاط من ذلك المخطط من خلال مستودع ChartPoint الذي تم إنشاؤه، من مزود تعلن عنه العرض — الطريق الذي تأخذه كل قائمة كيان في المكدس.'
+    empty:
+      title: 'لا توجد بيانات'
+      description: 'مخطط بلا شيء لرسمه يقول ذلك بدلاً من رسم محاور فارغة.'
+  series:
+    orders: الطلبات
+    returns: الإرجاعات
+    revenue: الإيرادات
+    work_orders: 'أوامر العمل'
+    duration: المدة
+  stage:
+    weaving: الحياكة
+    finishing: التشطيب
+    waiting: الانتظار
+    shipping: الشحن

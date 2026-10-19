@@ -58,3 +58,43 @@ fr:
     orders: Commandes, 6 mois
     average: Moyenne
     available: Disponible
+
+zh:
+  page_title: ' steering'
+  page_icon: 'ph:bold/gauge'
+  intro: 生产引导屏幕由图表组成，这些图表基于虚构数据：每组织机的负载与其容量的对比，产出与预测的对比，以及每个项目在其表格行中的订单。
+  section:
+    capacity:
+      title: 负载与容量
+      description: 每组一个条形图，其容量用一个标记表示。超过85%时条形图发出警告，超过100%时表示超载：这些阈值是可选的。
+    forecast:
+      title: 实际与预测
+      description: 实际线停在今天；预测线以虚线继续，在其置信区间内。
+    sparkline:
+      title: 每行一个微型图
+      description: 服务器上绘制的六个月订单，最后三个月高亮显示：三千行的表格不会为它们运行任何脚本。
+  column:
+    sku: 项目
+    orders: 订单，6个月
+    average: 平均值
+    available: 可用
+
+ar:
+  page_title: التوجيه
+  page_icon: 'ph:bold/gauge'
+  intro: 'الرسوم البيانية التي تتكون منها شاشة توجيه الإنتاج، بناءً على أرقام وهمية: الحمل لكل مجموعة نول مقابل طاقتها، الإنتاج مقابل توقعاته، وطلبات كل عنصر في صفه الجدولي.'
+  section:
+    capacity:
+      title: 'الحمل مقابل السعة'
+      description: 'شريط لكل مجموعة، وسعتها كعلامة عبره. فوق 85% يحذر الشريط، فوق 100% يكون محملاً بشكل زائد: العتبات خيار.'
+    forecast:
+      title: 'الفعلي مقابل التوقع'
+      description: 'يتوقف الخط الفعلي عند اليوم؛ يستمر التوقع متقطعًا، داخل نطاق ثقته.'
+    sparkline:
+      title: 'خط صغير لكل صف'
+      description: 'ستة أشهر من الطلبات مرسومة على الخادم، تم تمييز الثلاثة الأخيرة: جدول مكون من ثلاثة آلاف صف لا يحتاج إلى أي سكربت لهم.'
+  column:
+    sku: العنصر
+    orders: 'الطلبات، 6 أشهر'
+    average: المتوسط
+    available: المتوفر

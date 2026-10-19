@@ -1,0 +1,354 @@
+{
+    "pages/charts/index.ar.yml": {
+        "intro": {
+            "hash": "d1dea968c4f89c5dd9cb5d3bcc1b32a1",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "0fb001a07029ea8b572c90919dd82699",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "8d59930b55edc9a1932c98db53e17db7",
+            "engine": "syrtis"
+        },
+        "section.area.description": {
+            "hash": "3f5ebc4863a8c0064941b7adc960c2ae",
+            "engine": "syrtis"
+        },
+        "section.area.title": {
+            "hash": "c809065e4e1e1de1f58fa16977c40225",
+            "engine": "syrtis"
+        },
+        "section.bar.description": {
+            "hash": "c70ba5574165e96ba84be43909aeb06a",
+            "engine": "syrtis"
+        },
+        "section.bar.title": {
+            "hash": "3ccbb1717b49d91f3160c0ce4d6728d1",
+            "engine": "syrtis"
+        },
+        "section.boxplot.description": {
+            "hash": "5ad2dcbb757ef6ce030985322b61091f",
+            "engine": "syrtis"
+        },
+        "section.boxplot.title": {
+            "hash": "0f8019d1dcd86f142bdf7ac696e86438",
+            "engine": "syrtis"
+        },
+        "section.donut.description": {
+            "hash": "b844995ceb6dbf9cf937e644a833cc77",
+            "engine": "syrtis"
+        },
+        "section.donut.title": {
+            "hash": "43026202483a1c3f146f7caf96feab8f",
+            "engine": "syrtis"
+        },
+        "section.empty.description": {
+            "hash": "caceb8ff026489d0ab2ea3ebc6116d4e",
+            "engine": "syrtis"
+        },
+        "section.empty.title": {
+            "hash": "f47b5fab56415cb86f5434017bccf196",
+            "engine": "syrtis"
+        },
+        "section.endpoint.description": {
+            "hash": "8572bd20e19680d0b35e692355171b31",
+            "engine": "syrtis"
+        },
+        "section.endpoint.title": {
+            "hash": "45976bd75b9156a90b35c4480fbec225",
+            "engine": "syrtis"
+        },
+        "section.histogram.description": {
+            "hash": "1f83ab6099871c0dc18d020b9e12013d",
+            "engine": "syrtis"
+        },
+        "section.histogram.title": {
+            "hash": "cb15908f1a671b6fda42002138f55a0c",
+            "engine": "syrtis"
+        },
+        "section.horizontal.description": {
+            "hash": "df44857238c759e08c8c8cff4abe695a",
+            "engine": "syrtis"
+        },
+        "section.horizontal.title": {
+            "hash": "41649a88d1be1997535eab6fc2c822d8",
+            "engine": "syrtis"
+        },
+        "section.line.description": {
+            "hash": "2954f55bf835a29f94f23da84235bad1",
+            "engine": "syrtis"
+        },
+        "section.line.title": {
+            "hash": "e80a840bb5205476a679e795ee9eba1c",
+            "engine": "syrtis"
+        },
+        "series.duration": {
+            "hash": "44eaadbf8122ed5beaeae06ecad5f1c6",
+            "engine": "syrtis"
+        },
+        "series.orders": {
+            "hash": "ff3ecf001647e70a1a3556c4b6e9fcc3",
+            "engine": "syrtis"
+        },
+        "series.returns": {
+            "hash": "cb0a587a1405352256bfa8d4d5b14e1d",
+            "engine": "syrtis"
+        },
+        "series.revenue": {
+            "hash": "76ccacfadcd05f0bca81ba55e8f72ccb",
+            "engine": "syrtis"
+        },
+        "series.work_orders": {
+            "hash": "e938a4bf84356daf88422fa13b452314",
+            "engine": "syrtis"
+        },
+        "stage.finishing": {
+            "hash": "c10f9592a5d60c47071672a00496d302",
+            "engine": "syrtis"
+        },
+        "stage.shipping": {
+            "hash": "b3df786fe1a944fee6dc1f9d5a58eaa0",
+            "engine": "syrtis"
+        },
+        "stage.waiting": {
+            "hash": "5196ff38b8508efd35ed8850be379071",
+            "engine": "syrtis"
+        },
+        "stage.weaving": {
+            "hash": "9a0c7275434387e1b5e056f17af7283f",
+            "engine": "syrtis"
+        }
+    },
+    "pages/charts/index.zh.yml": {
+        "intro": {
+            "hash": "d1dea968c4f89c5dd9cb5d3bcc1b32a1",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "0fb001a07029ea8b572c90919dd82699",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "8d59930b55edc9a1932c98db53e17db7",
+            "engine": "syrtis"
+        },
+        "section.area.description": {
+            "hash": "3f5ebc4863a8c0064941b7adc960c2ae",
+            "engine": "syrtis"
+        },
+        "section.area.title": {
+            "hash": "c809065e4e1e1de1f58fa16977c40225",
+            "engine": "syrtis"
+        },
+        "section.bar.description": {
+            "hash": "c70ba5574165e96ba84be43909aeb06a",
+            "engine": "syrtis"
+        },
+        "section.bar.title": {
+            "hash": "3ccbb1717b49d91f3160c0ce4d6728d1",
+            "engine": "syrtis"
+        },
+        "section.boxplot.description": {
+            "hash": "5ad2dcbb757ef6ce030985322b61091f",
+            "engine": "syrtis"
+        },
+        "section.boxplot.title": {
+            "hash": "0f8019d1dcd86f142bdf7ac696e86438",
+            "engine": "syrtis"
+        },
+        "section.donut.description": {
+            "hash": "b844995ceb6dbf9cf937e644a833cc77",
+            "engine": "syrtis"
+        },
+        "section.donut.title": {
+            "hash": "43026202483a1c3f146f7caf96feab8f",
+            "engine": "syrtis"
+        },
+        "section.empty.description": {
+            "hash": "caceb8ff026489d0ab2ea3ebc6116d4e",
+            "engine": "syrtis"
+        },
+        "section.empty.title": {
+            "hash": "f47b5fab56415cb86f5434017bccf196",
+            "engine": "syrtis"
+        },
+        "section.endpoint.description": {
+            "hash": "8572bd20e19680d0b35e692355171b31",
+            "engine": "syrtis"
+        },
+        "section.endpoint.title": {
+            "hash": "45976bd75b9156a90b35c4480fbec225",
+            "engine": "syrtis"
+        },
+        "section.histogram.description": {
+            "hash": "1f83ab6099871c0dc18d020b9e12013d",
+            "engine": "syrtis"
+        },
+        "section.histogram.title": {
+            "hash": "cb15908f1a671b6fda42002138f55a0c",
+            "engine": "syrtis"
+        },
+        "section.horizontal.description": {
+            "hash": "df44857238c759e08c8c8cff4abe695a",
+            "engine": "syrtis"
+        },
+        "section.horizontal.title": {
+            "hash": "41649a88d1be1997535eab6fc2c822d8",
+            "engine": "syrtis"
+        },
+        "section.line.description": {
+            "hash": "2954f55bf835a29f94f23da84235bad1",
+            "engine": "syrtis"
+        },
+        "section.line.title": {
+            "hash": "e80a840bb5205476a679e795ee9eba1c",
+            "engine": "syrtis"
+        },
+        "series.duration": {
+            "hash": "44eaadbf8122ed5beaeae06ecad5f1c6",
+            "engine": "syrtis"
+        },
+        "series.orders": {
+            "hash": "ff3ecf001647e70a1a3556c4b6e9fcc3",
+            "engine": "syrtis"
+        },
+        "series.returns": {
+            "hash": "cb0a587a1405352256bfa8d4d5b14e1d",
+            "engine": "syrtis"
+        },
+        "series.revenue": {
+            "hash": "76ccacfadcd05f0bca81ba55e8f72ccb",
+            "engine": "syrtis"
+        },
+        "series.work_orders": {
+            "hash": "e938a4bf84356daf88422fa13b452314",
+            "engine": "syrtis"
+        },
+        "stage.finishing": {
+            "hash": "c10f9592a5d60c47071672a00496d302",
+            "engine": "syrtis"
+        },
+        "stage.shipping": {
+            "hash": "b3df786fe1a944fee6dc1f9d5a58eaa0",
+            "engine": "syrtis"
+        },
+        "stage.waiting": {
+            "hash": "5196ff38b8508efd35ed8850be379071",
+            "engine": "syrtis"
+        },
+        "stage.weaving": {
+            "hash": "9a0c7275434387e1b5e056f17af7283f",
+            "engine": "syrtis"
+        }
+    },
+    "pages/charts/steering.ar.yml": {
+        "column.available": {
+            "hash": "5f0f255601d7bb1f31e84dafc7889696",
+            "engine": "syrtis"
+        },
+        "column.average": {
+            "hash": "05dc10966971fbfa6f77dbb2111c23b3",
+            "engine": "syrtis"
+        },
+        "column.orders": {
+            "hash": "a1f078aa7dddf042c67f451deff8b92c",
+            "engine": "syrtis"
+        },
+        "column.sku": {
+            "hash": "807ad384f3e4607cf3dbeeaef25bbd4a",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "818cafbe23a2cc85aa9581b231a6d17f",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "626a8522b31cae4cb2963a57a68107b5",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "5cb1fcfdf0bae3c5955727ea196e0046",
+            "engine": "syrtis"
+        },
+        "section.capacity.description": {
+            "hash": "b3c6bef3ca01b1ecbb1c6ff2602a99aa",
+            "engine": "syrtis"
+        },
+        "section.capacity.title": {
+            "hash": "0ee8fdea7e69542e5ed3bf44e8931a1c",
+            "engine": "syrtis"
+        },
+        "section.forecast.description": {
+            "hash": "8048473f28adce0ae3dc7d1541df3684",
+            "engine": "syrtis"
+        },
+        "section.forecast.title": {
+            "hash": "a82cd99a0901283e3030902a050460b1",
+            "engine": "syrtis"
+        },
+        "section.sparkline.description": {
+            "hash": "cf4529b758489d714be56e09c5bc64bf",
+            "engine": "syrtis"
+        },
+        "section.sparkline.title": {
+            "hash": "037e96801cdd764c50be4f0ce163214d",
+            "engine": "syrtis"
+        }
+    },
+    "pages/charts/steering.zh.yml": {
+        "column.available": {
+            "hash": "5f0f255601d7bb1f31e84dafc7889696",
+            "engine": "syrtis"
+        },
+        "column.average": {
+            "hash": "05dc10966971fbfa6f77dbb2111c23b3",
+            "engine": "syrtis"
+        },
+        "column.orders": {
+            "hash": "a1f078aa7dddf042c67f451deff8b92c",
+            "engine": "syrtis"
+        },
+        "column.sku": {
+            "hash": "807ad384f3e4607cf3dbeeaef25bbd4a",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "818cafbe23a2cc85aa9581b231a6d17f",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "626a8522b31cae4cb2963a57a68107b5",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "5cb1fcfdf0bae3c5955727ea196e0046",
+            "engine": "syrtis"
+        },
+        "section.capacity.description": {
+            "hash": "b3c6bef3ca01b1ecbb1c6ff2602a99aa",
+            "engine": "syrtis"
+        },
+        "section.capacity.title": {
+            "hash": "0ee8fdea7e69542e5ed3bf44e8931a1c",
+            "engine": "syrtis"
+        },
+        "section.forecast.description": {
+            "hash": "8048473f28adce0ae3dc7d1541df3684",
+            "engine": "syrtis"
+        },
+        "section.forecast.title": {
+            "hash": "a82cd99a0901283e3030902a050460b1",
+            "engine": "syrtis"
+        },
+        "section.sparkline.description": {
+            "hash": "cf4529b758489d714be56e09c5bc64bf",
+            "engine": "syrtis"
+        },
+        "section.sparkline.title": {
+            "hash": "037e96801cdd764c50be4f0ce163214d",
+            "engine": "syrtis"
+        }
+    }
+}
