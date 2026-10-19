@@ -98,3 +98,383 @@ ar:
     orders: 'الطلبات، 6 أشهر'
     average: المتوسط
     available: المتوفر
+
+hi:
+  page_title: स्टीयरिंग
+  page_icon: 'ph:bold/gauge'
+  intro: 'चार्ट जो एक उत्पादन स्टीयरिंग स्क्रीन में होते हैं, काल्पनिक आंकड़ों पर: प्रत्येक लूम समूह का लोड उसकी क्षमता के मुकाबले, उत्पादन उसकी भविष्यवाणी के मुकाबले, और प्रत्येक आइटम के आदेश उसकी तालिका पंक्ति में।'
+  section:
+    capacity:
+      title: 'लोड बनाम क्षमता'
+      description: 'प्रत्येक समूह के लिए एक बार, इसकी क्षमता के रूप में एक टिक के साथ। 85% से ऊपर बार चेतावनी देता है, 100% से ऊपर यह अधिभारित होता है: थ्रेशोल्ड एक विकल्प हैं।'
+    forecast:
+      title: 'वास्तविक बनाम भविष्यवाणी'
+      description: 'वास्तविक रेखा आज पर रुकती है; भविष्यवाणी डैश के साथ जारी रहती है, इसकी आत्मविश्वास बैंड के भीतर।'
+    sparkline:
+      title: 'प्रत्येक पंक्ति के लिए एक स्पार्कलाइन'
+      description: 'सर्वर पर छह महीनों के आदेश, अंतिम तीन हाइलाइटेड: तीन हजार पंक्तियों की एक तालिका उनके लिए कोई स्क्रिप्ट नहीं चलाती।'
+  column:
+    sku: आइटम
+    orders: 'आदेश, 6 महीने'
+    average: औसत
+    available: उपलब्ध
+
+he:
+  page_title: היגוי
+  page_icon: 'ph:bold/gauge'
+  intro: 'התרשימים שמסך ההיגוי של הייצור עשוי מהם, על נתונים מומצאים: העומס של כל קבוצת טוויה מול הקיבולת שלה, התפוקה מול התחזית שלה, וההזמנות של כל פריט בשורת הטבלה שלו.'
+  section:
+    capacity:
+      title: 'עומס מול קיבולת'
+      description: 'בר עבור כל קבוצה, הקיבולת שלה כמסמן חוצה. מעל ל-85% הבר מזהיר, מעל ל-100% הוא עמוס: הספים הם אפשרות.'
+    forecast:
+      title: 'ממשי מול תחזית'
+      description: 'הקו הממשי עוצר להיום; התחזית ממשיכה בקו מקווקו, בתוך טווח הביטחון שלה.'
+    sparkline:
+      title: 'ספראקלין לכל שורה'
+      description: 'שישה חודשים של הזמנות מצויירות על השרת, שלושת האחרונות מודגשות: טבלה של שלושת אלפים שורות לא מריצה סקריפט עבורן.'
+  column:
+    sku: פריט
+    orders: 'הזמנות, 6 חודשים'
+    average: ממוצע
+    available: זמין
+
+fa:
+  page_title: هدایت
+  page_icon: 'ph:bold/gauge'
+  intro: 'نمودارهایی که صفحه هدایت تولید از اعداد تخیلی تشکیل شده است: بار هر گروه بافندگی در مقابل ظرفیت آن، خروجی در مقابل پیش‌بینی و سفارشات هر مورد در ردیف جدول آن.'
+  section:
+    capacity:
+      title: 'بار در مقابل ظرفیت'
+      description: 'یک میله برای هر گروه، ظرفیت آن به عنوان یک نشانه در آن. بالای 85٪ میله هشدار می‌دهد، بالای 100٪ بار اضافی است: آستانه‌ها یک گزینه هستند.'
+    forecast:
+      title: 'واقعی در مقابل پیش‌بینی'
+      description: 'خط واقعی در امروز متوقف می‌شود؛ پیش‌بینی به صورت خط‌چین ادامه دارد، درون باند اطمینان خود.'
+    sparkline:
+      title: 'یک اسپارک‌لاین برای هر ردیف'
+      description: 'شش ماه سفارشات که روی سرور ترسیم شده‌اند، آخرین سه مورد هایلایت شده‌اند: یک جدول سه هزار ردیفی برای آنها هیچ اسکریپتی اجرا نمی‌کند.'
+  column:
+    sku: مورد
+    orders: 'سفارشات، 6 ماه'
+    average: میانگین
+    available: 'در دسترس'
+
+ur:
+  page_title: اسٹیئرنگ
+  page_icon: 'ph:bold/gauge'
+  intro: 'چارٹس جو ایک پروڈکشن اسٹیئرنگ اسکرین تشکیل دیتے ہیں، فرضی اعداد و شمار پر: ہر لوم گروپ کا بوجھ اس کی صلاحیت کے مقابلے میں، پیداوار اس کی پیشگوئی کے مقابلے میں، اور ہر آئٹم کے آرڈر اس کی ٹیبل کی قطار میں۔'
+  section:
+    capacity:
+      title: 'صلاحیت کے مقابلے میں بوجھ'
+      description: 'ہر گروپ کے لیے ایک بار، اس کی صلاحیت اس پر ایک ٹک کے طور پر۔ 85% سے اوپر بار متنبہ کرتا ہے، 100% سے اوپر یہ زیادہ بوجھ میں ہے: یہ حدیں ایک آپشن ہیں۔'
+    forecast:
+      title: 'حقیقی کے مقابلے میں پیشگوئی'
+      description: 'حقیقی لائن آج پر رک جاتی ہے؛ پیشگوئی ڈیشڈ میں جاری رہتی ہے، اس کی اعتماد کی حد کے اندر۔'
+    sparkline:
+      title: 'ہر قطار کے لیے ایک اسپارک لائن'
+      description: 'سرور پر چھ مہینے کے آرڈرز، آخری تین نمایاں: تین ہزار قطاروں کی ایک ٹیبل ان کے لیے کوئی اسکرپٹ نہیں چلاتی۔'
+  column:
+    sku: آئٹم
+    orders: 'آرڈرز، 6 مہینے'
+    average: اوسط
+    available: دستیاب
+
+ja:
+  page_title: 操縦
+  page_icon: 'ph:bold/gauge'
+  intro: 架空の数字に基づいた生産操縦画面のチャート：各織機グループの負荷とそのキャパシティ、実績と予測、各アイテムのテーブル行における注文。
+  section:
+    capacity:
+      title: 負荷とキャパシティ
+      description: 'グループごとのバー、そのキャパシティが横にマークされている。85 %を超えるとバーが警告し、100 %を超えると過負荷：しきい値はオプション。'
+    forecast:
+      title: 実績と予測
+      description: 実績ラインは今日で止まり、予測は破線で続き、その信頼区間内にある。
+    sparkline:
+      title: 行ごとのスパークライン
+      description: サーバー上で描かれた6か月の注文、最後の3つが強調表示されている：三千行のテーブルはそれらのためにスクリプトを実行しない。
+  column:
+    sku: アイテム
+    orders: 注文、6か月
+    average: 平均
+    available: 利用可能
+
+ko:
+  page_title: 조타
+  page_icon: 'ph:bold/gauge'
+  intro: '생성된 수치에 대한 생산 조타 화면으로 구성된 차트: 각 직조기 그룹의 하중과 용량, 실제 생산량과 예측량, 그리고 각 항목의 주문이 테이블 행에 표시됩니다.'
+  section:
+    capacity:
+      title: '하중 대비 용량'
+      description: '그룹당 하나의 막대, 용량은 그 위에 표시됩니다. 85% 이상에서는 경고, 100% 이상에서는 과부하입니다: 임계값은 선택 사항입니다.'
+    forecast:
+      title: '실제 대비 예측'
+      description: '실제 라인은 오늘까지 멈추고, 예측은 신뢰 구간 내에서 점선으로 이어집니다.'
+    sparkline:
+      title: '행당 스파크라인'
+      description: '서버에서 그려진 6개월의 주문, 마지막 3개가 강조 표시됩니다: 3,000개의 행으로 구성된 테이블은 이를 위한 스크립트를 실행하지 않습니다.'
+  column:
+    sku: 항목
+    orders: '주문, 6개월'
+    average: 평균
+    available: '사용 가능'
+
+bn:
+  page_title: স্টিয়ারিং
+  page_icon: 'ph:bold/gauge'
+  intro: 'একটি উৎপাদন স্টিয়ারিং স্ক্রীনের চার্টগুলি, কল্পিত পরিসংখ্যানের উপর: প্রতিটি লুম গ্রুপের লোড তার সক্ষমতার বিপরীতে, আউটপুট তার পূর্বাভাসের বিপরীতে, এবং প্রতিটি আইটেমের অর্ডার তার টেবিলের সারিতে।'
+  section:
+    capacity:
+      title: 'লোডের বিপরীতে সক্ষমতা'
+      description: 'প্রতি গ্রুপের জন্য একটি বার, তার সক্ষমতা এর উপর একটি টিক হিসাবে। ৮৫% এর উপরে বারটি সতর্ক করে, ১০০% এর উপরে এটি অতিরিক্ত লোড: সীমাগুলি একটি বিকল্প।'
+    forecast:
+      title: 'বাস্তবতার বিপরীতে পূর্বাভাস'
+      description: 'বাস্তবতার লাইন আজকের তারিখে থেমে যায়; পূর্বাভাস ড্যাশ লাইন দিয়ে চলতে থাকে, এর আত্মবিশ্বাসের ব্যান্ডের ভিতরে।'
+    sparkline:
+      title: 'প্রতি সারিতে একটি স্পার্কলাইন'
+      description: 'সার্ভারে অর্ডারের ছয় মাস, শেষ তিনটি হাইলাইট করা: তিন হাজার সারির একটি টেবিল তাদের জন্য কোন স্ক্রিপ্ট চালায় না।'
+  column:
+    sku: আইটেম
+    orders: 'অর্ডার, ৬ মাস'
+    average: গড়
+    available: উপলব্ধ
+
+th:
+  page_title: พวงมาลัย
+  page_icon: 'ph:bold/gauge'
+  intro: 'กราฟที่หน้าจอการควบคุมการผลิตสร้างขึ้นจากข้อมูลที่สมมติขึ้น: โหลดของแต่ละกลุ่มเครื่องทอเมื่อเปรียบเทียบกับความจุ, ผลผลิตเมื่อเปรียบเทียบกับการคาดการณ์, และคำสั่งของแต่ละรายการในแถวตารางของมัน.'
+  section:
+    capacity:
+      title: โหลดเมื่อเปรียบเทียบกับความจุ
+      description: 'แท่งต่อกลุ่ม โดยมีความจุเป็นเครื่องหมายขีดขวางอยู่ด้านบน หากมากกว่า 85 % แท่งจะแจ้งเตือน หากมากกว่า 100 % จะเกินโหลด: เกณฑ์เป็นตัวเลือก.'
+    forecast:
+      title: จริงเมื่อเปรียบเทียบกับการคาดการณ์
+      description: 'เส้นจริงหยุดที่วันนี้; การคาดการณ์จะดำเนินต่อไปเป็นเส้นประภายในแถบความเชื่อมั่นของมัน.'
+    sparkline:
+      title: สปาร์คไลน์ต่อแถว
+      description: 'คำสั่งหกเดือนที่วาดบนเซิร์ฟเวอร์ โดยสามเดือนสุดท้ายโดดเด่น: ตารางที่มีสามพันแถวจะไม่รันสคริปต์สำหรับพวกเขา.'
+  column:
+    sku: รายการ
+    orders: 'คำสั่ง, 6 เดือน'
+    average: เฉลี่ย
+    available: มีอยู่
+
+de:
+  page_title: Steuerung
+  page_icon: 'ph:bold/gauge'
+  intro: 'Die Diagramme eines Produktionssteuerungsbildschirms basieren auf fiktiven Zahlen: die Auslastung jeder Webmaschinen-Gruppe im Vergleich zu ihrer Kapazität, die Produktion im Vergleich zur Prognose und die Bestellungen jedes Artikels in seiner Tabellenzeile.'
+  section:
+    capacity:
+      title: 'Last gegen Kapazität'
+      description: 'Ein Balken pro Gruppe, ihre Kapazität als Strich darüber. Über 85 % warnt der Balken, über 100 % ist er überlastet: die Schwellenwerte sind optional.'
+    forecast:
+      title: 'Ist gegen Prognose'
+      description: 'Die Ist-Linie endet heute; die Prognose wird gestrichelt fortgeführt, innerhalb ihres Vertrauensbereichs.'
+    sparkline:
+      title: 'Ein Sparkline pro Zeile'
+      description: 'Sechs Monate Bestellungen, die auf dem Server dargestellt werden, die letzten drei hervorgehoben: Eine Tabelle mit dreitausend Zeilen läuft kein Skript für sie.'
+  column:
+    sku: Artikel
+    orders: 'Bestellungen, 6 Monate'
+    average: Durchschnitt
+    available: Verfügbar
+
+fi:
+  page_title: Ohjaus
+  page_icon: 'ph:bold/gauge'
+  intro: 'Kaaviot, joista tuotannon ohjausnäyttö koostuu, kuvitteellisten lukujen perusteella: jokaisen kankaan ryhmän kuormitus verrattuna sen kapasiteettiin, tuotanto verrattuna ennusteeseen ja jokaisen kohteen tilaukset sen taulukon rivissä.'
+  section:
+    capacity:
+      title: 'Kuormitus suhteessa kapasiteettiin'
+      description: 'Yksi palkki per ryhmä, kapasiteetti merkkinä sen yli. Yli 85 % palkki varoittaa, yli 100 % se on ylikuormitettu: kynnysarvot ovat vaihtoehto.'
+    forecast:
+      title: 'Todellinen suhteessa ennusteeseen'
+      description: 'Todellinen viiva loppuu tänään; ennuste jatkuu katkoviivalla, sen luottamusvälin sisällä.'
+    sparkline:
+      title: 'Sparklines jokaiselle riville'
+      description: 'Kuusi kuukautta tilauksia, jotka on piirretty palvelimelle, viimeiset kolme korostettuna: kolmen tuhannen rivin taulukko ei suorita skriptiä niiden osalta.'
+  column:
+    sku: Tuote
+    orders: 'Tilaukset, 6 kuukautta'
+    average: Keskimääräinen
+    available: Saatavilla
+
+ru:
+  page_title: Управление
+  page_icon: 'ph:bold/gauge'
+  intro: 'Графики на экране управления производством, основанные на придуманных данных: нагрузка каждой группы ткацких станков по сравнению с её ёмкостью, фактический выпуск по сравнению с прогнозом и заказы на каждый товар в строке таблицы.'
+  section:
+    capacity:
+      title: 'Нагрузка по сравнению с ёмкостью'
+      description: 'По одной полосе на группу, её ёмкость показана галочкой. Выше 85 % полоса предупреждает, выше 100 % — перегрузка: пороги настраиваются.'
+    forecast:
+      title: 'Фактическое значение по сравнению с прогнозом'
+      description: 'Фактическая линия заканчивается сегодня; прогноз продолжается пунктирной линией внутри своего доверительного интервала.'
+    sparkline:
+      title: 'Мини-график для каждой строки'
+      description: 'Заказы за шесть месяцев, отображённые на сервере, последние три выделены: таблица из трёх тысяч строк не запускает для них скрипт.'
+  column:
+    sku: Товар
+    orders: 'Заказы, 6 месяцев'
+    average: Среднее
+    available: Доступно
+
+pl:
+  page_title: Sterowanie
+  page_icon: 'ph:bold/gauge'
+  intro: 'Wykresy, z których składa się ekran sterowania produkcją, na wymyślonych danych: obciążenie każdej grupy krosien w stosunku do jej pojemności, produkcja w stosunku do prognozy oraz zamówienia każdego przedmiotu w jego wierszu tabeli.'
+  section:
+    capacity:
+      title: 'Obciążenie w stosunku do pojemności'
+      description: 'Słupki dla każdej grupy, jej pojemność zaznaczona jako tick na słupku. Powyżej 85 % słupek ostrzega, powyżej 100 % jest przeciążony: progi są opcją.'
+    forecast:
+      title: 'Rzeczywistość w stosunku do prognozy'
+      description: 'Linia rzeczywista zatrzymuje się na dzisiaj; prognoza kontynuuje przerywaną linią, wewnątrz swojego pasma ufności.'
+    sparkline:
+      title: 'Sparklina dla każdego wiersza'
+      description: 'Sześć miesięcy zamówień rysowanych na serwerze, ostatnie trzy wyróżnione: tabela z trzema tysiącami wierszy nie uruchamia skryptu dla nich.'
+  column:
+    sku: Przedmiot
+    orders: 'Zamówienia, 6 miesięcy'
+    average: Średnia
+    available: Dostępne
+
+es:
+  page_title: Dirección
+  page_icon: 'ph:bold/gauge'
+  intro: 'Los gráficos de una pantalla de dirección de producción se componen de cifras inventadas: la carga de cada grupo de telares frente a su capacidad, la producción frente a su pronóstico y los pedidos de cada artículo en su fila de tabla.'
+  section:
+    capacity:
+      title: 'Carga frente a capacidad'
+      description: 'Una barra por grupo, su capacidad como una marca a lo largo de ella. Por encima del 85 % la barra advierte, por encima del 100 % está sobrecargada: los umbrales son una opción.'
+    forecast:
+      title: 'Real frente a pronóstico'
+      description: 'La línea real se detiene en hoy; el pronóstico continúa a rayas, dentro de su banda de confianza.'
+    sparkline:
+      title: 'Una línea de sparkline por fila'
+      description: 'Seis meses de pedidos dibujados en el servidor, los últimos tres destacados: una tabla de tres mil filas no ejecuta ningún script para ellos.'
+  column:
+    sku: Artículo
+    orders: 'Pedidos, 6 meses'
+    average: Promedio
+    available: Disponible
+
+it:
+  page_title: Sterzo
+  page_icon: 'ph:bold/gauge'
+  intro: "I grafici di uno schermo di steering della produzione, su dati inventati: il carico di ciascun gruppo di telai rispetto alla sua capacità, l'output rispetto alla sua previsione e gli ordini di ciascun articolo nella sua riga della tabella."
+  section:
+    capacity:
+      title: 'Carico rispetto alla capacità'
+      description: "Una barra per gruppo, con la sua capacità segnata da una tacca. Sopra l'85 % la barra avvisa, sopra il 100 % è sovraccarica: le soglie sono un'opzione."
+    forecast:
+      title: 'Reale rispetto alla previsione'
+      description: "La linea reale si ferma a oggi; la previsione continua tratteggiata, all'interno della sua banda di confidenza."
+    sparkline:
+      title: 'Uno sparkline per riga'
+      description: 'Sei mesi di ordini tracciati sul server, gli ultimi tre evidenziati: una tabella di tremila righe non esegue script per loro.'
+  column:
+    sku: Articolo
+    orders: 'Ordini, 6 mesi'
+    average: Media
+    available: Disponibile
+
+pt_BR:
+  page_title: Direção
+  page_icon: 'ph:bold/gauge'
+  intro: 'Os gráficos de uma tela de direção de produção são baseados em dados fictícios: a carga de cada grupo de tear em relação à sua capacidade, a produção em relação à sua previsão, e os pedidos de cada item em sua linha da tabela.'
+  section:
+    capacity:
+      title: 'Carga em relação à capacidade'
+      description: 'Uma barra por grupo, com sua capacidade marcada como um traço. Acima de 85 % a barra avisa, acima de 100 % está sobrecarregada: os limites são uma opção.'
+    forecast:
+      title: 'Atual em relação à previsão'
+      description: 'A linha atual para na data de hoje; a previsão continua tracejada, dentro de sua faixa de confiança.'
+    sparkline:
+      title: 'Uma sparkline por linha'
+      description: 'Seis meses de pedidos desenhados no servidor, os últimos três destacados: uma tabela de três mil linhas não executa script para eles.'
+  column:
+    sku: Item
+    orders: 'Pedidos, 6 meses'
+    average: Média
+    available: Disponível
+
+tr:
+  page_title: Direksiyon
+  page_icon: 'ph:bold/gauge'
+  intro: 'Bir üretim direksiyon ekranının oluşturduğu grafikler, uydurma verilere dayanmaktadır: her dokuma grubu için yük karşısında kapasitesi, çıktının tahminine karşı durumu ve her öğenin tablo satırındaki siparişleri.'
+  section:
+    capacity:
+      title: 'Yük karşısında kapasite'
+      description: "Her grup için bir çubuk, kapasitesi üzerinde bir işaretle gösterilir. %85'in üzerinde çubuk uyarı verir, %100'ün üzerinde aşırı yüklenmiştir: eşikler bir seçenek."
+    forecast:
+      title: 'Gerçek karşısında tahmin'
+      description: 'Gerçek çizgisi bugünde durur; tahmin kesikli olarak devam eder, güven aralığı içinde yer alır.'
+    sparkline:
+      title: 'Her satır için bir sparkline'
+      description: 'Sunucuda çizilmiş altı aylık siparişler, son üçü vurgulanmış: üç bin satırlık bir tablo için onlara hiçbir betik çalıştırılmaz.'
+  column:
+    sku: Öğe
+    orders: 'Siparişler, 6 ay'
+    average: Ortalama
+    available: Mevcut
+
+vi:
+  page_title: 'Lái xe'
+  page_icon: 'ph:bold/gauge'
+  intro: 'Các biểu đồ của màn hình lái xe sản xuất được tạo ra từ số liệu giả: tải trọng của mỗi nhóm máy dệt so với khả năng của nó, sản lượng so với dự đoán, và đơn hàng của từng mặt hàng trong hàng của nó.'
+  section:
+    capacity:
+      title: 'Tải trọng so với khả năng'
+      description: 'Một thanh cho mỗi nhóm, khả năng của nó được đánh dấu trên đó. Trên 85 % thanh sẽ cảnh báo, trên 100 % là quá tải: các ngưỡng là tùy chọn.'
+    forecast:
+      title: 'Thực tế so với dự đoán'
+      description: 'Đường thực tế dừng lại ở hôm nay; dự đoán tiếp tục bằng đường chấm, bên trong dải độ tin cậy của nó.'
+    sparkline:
+      title: 'Một sparkline cho mỗi hàng'
+      description: 'Sáu tháng đơn hàng được vẽ trên máy chủ, ba tháng cuối được làm nổi bật: một bảng ba nghìn hàng không chạy script cho chúng.'
+  column:
+    sku: 'Mặt hàng'
+    orders: 'Đơn hàng, 6 tháng'
+    average: 'Trung bình'
+    available: 'Có sẵn'
+
+id:
+  page_title: Pengendalian
+  page_icon: 'ph:bold/gauge'
+  intro: 'Grafik yang terdiri dari layar pengendalian produksi, berdasarkan angka yang dibuat-buat: beban setiap kelompok tenun dibandingkan dengan kapasitasnya, output dibandingkan dengan perkiraannya, dan pesanan setiap item dalam baris tabelnya.'
+  section:
+    capacity:
+      title: 'Beban terhadap kapasitas'
+      description: 'Sebuah batang per kelompok, kapasitasnya sebagai tanda di seberangnya. Di atas 85 % batang memberi peringatan, di atas 100 % sudah overload: ambang batas adalah sebuah opsi.'
+    forecast:
+      title: 'Aktual terhadap perkiraan'
+      description: 'Garis aktual berhenti di hari ini; perkiraan dilanjutkan dengan garis putus-putus, di dalam band kepercayaannya.'
+    sparkline:
+      title: 'Sebuah sparkline per baris'
+      description: 'Enam bulan pesanan yang digambar di server, tiga bulan terakhir disorot: sebuah tabel dengan tiga ribu baris tidak menjalankan skrip untuk mereka.'
+  column:
+    sku: Item
+    orders: 'Pesanan, 6 bulan'
+    average: Rata-rata
+    available: Tersedia
+
+nl:
+  page_title: Sturing
+  page_icon: 'ph:bold/gauge'
+  intro: 'De grafieken waaruit een productie stuurscherm is opgebouwd, op verzonnen cijfers: de belasting van elke weefgroep tegen zijn capaciteit, de output tegen zijn prognose, en de bestellingen van elk item in zijn tabelrij.'
+  section:
+    capacity:
+      title: 'Belasting tegen capaciteit'
+      description: 'Een balk per groep, met de capaciteit als een streep erover. Boven 85 % waarschuwt de balk, boven 100 % is deze overbelast: de drempels zijn een optie.'
+    forecast:
+      title: 'Werkelijk tegen prognose'
+      description: 'De werkelijke lijn stopt vandaag; de prognose gaat door met stippellijn, binnen zijn betrouwbaarheidsband.'
+    sparkline:
+      title: 'Een sparkline per rij'
+      description: 'Zes maanden aan bestellingen getekend op de server, de laatste drie gemarkeerd: een tabel van drie duizend rijen draait geen script voor hen.'
+  column:
+    sku: Item
+    orders: 'Bestellingen, 6 maanden'
+    average: Gemiddelde
+    available: Beschikbaar

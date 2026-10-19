@@ -189,3 +189,839 @@ ar:
     finishing: التشطيب
     waiting: الانتظار
     shipping: الشحن
+
+hi:
+  page_title: चार्ट्स
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds का chart() फ़ंक्शन: ECharts जो svg में बनाए जाते हैं, डिज़ाइन सिस्टम द्वारा दोनों रंग योजनाओं में रंगीन, संख्याएँ और महीने पृष्ठ की भाषा में लिखे जाते हैं। चार्ट पर होवर करें इसके सटीक मानों के लिए।'
+  section:
+    line:
+      title: लाइन
+      description: 'दो श्रृंखलाएँ, स्मूदेड। एक से अधिक होने पर किंवदंती दिखती है।'
+    area:
+      title: 'स्टैक्ड एरिया'
+      description: 'एक ही श्रृंखला स्टैक की गई; दूसरी श्रेणियों का न्यूनतम लेती है।'
+    bar:
+      title: 'बार्स, यूरो में'
+      description: 'फॉर्मेट { स्टाइल मुद्रा } — अक्ष पर संक्षिप्त, टूलटिप में पूरा।'
+    horizontal:
+      title: 'Horizontal stacked bars'
+      description: 'क्षितिज और स्टैक्ड, लेबल के लिए जो बार के नीचे खड़े होने के लिए बहुत लंबे हैं।'
+    donut:
+      title: डोनट
+      description: 'किस प्रकार एक कुल विभाजित होता है; टूलटिप में प्रत्येक भाग का हिस्सा।'
+    boxplot:
+      title: 'बॉक्स प्लॉट'
+      description: 'कच्चे नमूनों से प्रत्येक चरण की अवधि: चतुर्थांश घटक द्वारा गणना की जाती है। एक यूनिट फॉर्मेट दिन लिखता है।'
+    histogram:
+      title: हिस्टोग्राम
+      description: 'तीस सौ उपज, बारह समान चौड़ाई के बिन में।'
+    endpoint:
+      title: 'एपीआई द्वारा प्रदान किया गया'
+      description: 'डेटा के बजाय एक स्रोत दिया गया: चार्ट उस चार्ट के पॉइंट को जनरेटेड ChartPoint रिपॉजिटरी के माध्यम से पढ़ता है, एक प्रदाता से जो डेमो घोषित करता है — स्टैक का हर एंटिटी सूची का रास्ता।'
+    empty:
+      title: 'कोई डेटा नहीं'
+      description: 'कुछ न होने पर चार्ट कहता है कि वह खाली अक्ष खींचने के बजाय ऐसा करता है।'
+  series:
+    orders: ऑर्डर
+    returns: रिटर्न्स
+    revenue: राजस्व
+    work_orders: 'कार्य आदेश'
+    duration: अवधि
+  stage:
+    weaving: बुनाई
+    finishing: फिनिशिंग
+    waiting: इंतजार
+    shipping: शिपिंग
+
+he:
+  page_title: תרשימים
+  page_icon: 'ph:bold/chart-line'
+  intro: 'הפונקציה chart() של symfony-charts-ds: ECharts מצויירים ב-svg, בצבעים של מערכת העיצוב בשני סכמות צבע, מספרים וחודשים כתובים בשפה של הדף. רדו על תרשים כדי לראות את הערכים המדויקים שלו.'
+  section:
+    line:
+      title: קו
+      description: 'שתי סדרות, מעוגלות. האגדה מופיעה ברגע שיש יותר מאחת.'
+    area:
+      title: 'אזור מצטבר'
+      description: 'אותן סדרות מצטברות; השנייה לוקחת את המינימום של הקטגוריות.'
+    bar:
+      title: 'ברים, באירו'
+      description: 'פורמט { style currency } — קומפקטי על הציר, שלם בטיפ של העכבר.'
+    horizontal:
+      title: 'ברים אופקיים מצטברים'
+      description: 'אופקיים ומצטברים, עבור תוויות ארוכות מדי כדי לעמוד מתחת לבר.'
+    donut:
+      title: דונאט
+      description: 'איך סך כל מתחלק; החלק של כל חלק בטיפ של העכבר.'
+    boxplot:
+      title: 'תיבת תרשים'
+      description: 'זמנים לפי שלב, מדגימות גולמיות: הרבעונים מחושבים על ידי הרכיב. פורמט יחידה כותב את הימים.'
+    histogram:
+      title: היסטוגרמה
+      description: 'שלוש מאות תפוקות, בשנים עשר תיבות ברוחב שווה.'
+    endpoint:
+      title: 'מוזן על ידי ה-api'
+      description: 'נכון מקור במקום נתונים: התרשים קורא את הנקודות של התרשים הזה דרך מאגר ChartPoint שנוצר, מספק שהדמו מצהיר — הדרך של כל רשימת ישות של הערימה.'
+    empty:
+      title: 'אין נתונים'
+      description: 'תרשים שאין מה לצייר אומר כך במקום לצייר צירים ריקים.'
+  series:
+    orders: הזמנות
+    returns: החזרות
+    revenue: הכנסות
+    work_orders: 'הזמנות עבודה'
+    duration: משך
+  stage:
+    weaving: אריגה
+    finishing: גימור
+    waiting: המתנה
+    shipping: משלוח
+
+fa:
+  page_title: نمودارها
+  page_icon: 'ph:bold/chart-line'
+  intro: 'تابع chart() از symfony-charts-ds: ECharts که در svg رسم شده و با سیستم طراحی در هر دو طرح رنگی رنگ‌آمیزی شده است، اعداد و ماه‌ها به زبان صفحه نوشته می‌شوند. بر روی یک نمودار حرکت کنید تا مقادیر دقیق آن را ببینید.'
+  section:
+    line:
+      title: خطی
+      description: 'دو سری، صاف شده. افسانه به محض وجود بیش از یک سری نمایش داده می‌شود.'
+    area:
+      title: 'منطقه انباشته'
+      description: 'سری‌های مشابه انباشته شده؛ دومی حداقل دسته‌ها را می‌گیرد.'
+    bar:
+      title: 'میله‌ها، به یورو'
+      description: 'فرمت { style currency } — فشرده در محور، کامل در راهنمای ابزار.'
+    horizontal:
+      title: 'میله‌های افقی انباشته'
+      description: 'افقی و انباشته، برای برچسب‌هایی که خیلی طولانی هستند تا زیر یک میله قرار بگیرند.'
+    donut:
+      title: دونات
+      description: 'چگونه یک مجموع تقسیم می‌شود؛ سهم هر بخش در راهنمای ابزار.'
+    boxplot:
+      title: 'نمودار جعبه‌ای'
+      description: 'مدت زمان‌ها در هر مرحله، از نمونه‌های خام: چارک‌ها توسط کامپوننت محاسبه می‌شوند. یک فرمت واحد روزها را می‌نویسد.'
+    histogram:
+      title: هیستوگرام
+      description: 'سیصد محصول، در دوازده سبد با عرض مساوی.'
+    endpoint:
+      title: 'تأمین شده توسط API'
+      description: 'با توجه به یک منبع به جای داده‌ها: نمودار نقاط آن نمودار را از طریق مخزن ChartPoint تولید شده می‌خواند، از یک ارائه‌دهنده که دموی اعلام می‌کند — جاده‌ای که هر لیست موجودیت از انباشته می‌گیرد.'
+    empty:
+      title: 'بدون داده'
+      description: 'نموداری که چیز قابل رسم ندارد، به جای رسم محورهای خالی، این را نشان می‌دهد.'
+  series:
+    orders: سفارشات
+    returns: مرجوعی‌ها
+    revenue: درآمد
+    work_orders: 'سفارشات کاری'
+    duration: 'مدت زمان'
+  stage:
+    weaving: بافت
+    finishing: تکمیل
+    waiting: منتظر
+    shipping: ارسال
+
+ur:
+  page_title: چارٹس
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds کا chart() فنکشن: ECharts جو svg میں بنائے گئے ہیں، ڈیزائن سسٹم کے مطابق دونوں رنگ سکیموں میں رنگین ہیں، نمبر اور مہینے صفحے کی زبان میں لکھے گئے ہیں۔ درست قیمتوں کے لیے چارٹ پر ہور کریں۔'
+  section:
+    line:
+      title: لائن
+      description: 'دو سلسلے، ہموار۔ لیجنڈ اسی وقت ظاہر ہوتا ہے جب ایک سے زیادہ ہوں۔'
+    area:
+      title: 'اسٹیکڈ ایریا'
+      description: 'ایک ہی سلسلے اسٹیک کیے گئے؛ دوسرا زمرہ جات کا منٹ لیتا ہے۔'
+    bar:
+      title: 'بارز، یورو میں'
+      description: 'format { style currency } — محور پر کمپیکٹ، ٹول ٹپ میں مکمل۔'
+    horizontal:
+      title: 'افقی اسٹیکڈ بارز'
+      description: 'افقی اور اسٹیکڈ، لیبلز کے لیے جو بار کے نیچے کھڑے ہونے کے لیے بہت لمبے ہیں۔'
+    donut:
+      title: ڈونٹ
+      description: 'ایک مجموعہ کس طرح تقسیم ہوتا ہے؛ ہر حصے کا حصہ ٹول ٹپ میں۔'
+    boxplot:
+      title: 'باکس پلاٹ'
+      description: 'ہر مرحلے کے لیے دورانیے، خام نمونوں سے: چوتھائیوں کا حساب کمپوننٹ کے ذریعے کیا جاتا ہے۔ ایک یونٹ فارمیٹ دنوں کو لکھتا ہے۔'
+    histogram:
+      title: ہسٹگرام
+      description: 'تین سو پیداوار، بارہ برابر چوڑائی کے بنز میں۔'
+    endpoint:
+      title: 'API کے ذریعے فراہم کردہ'
+      description: 'ڈیٹا کے بجائے ایک ماخذ دیا گیا: چارٹ اس چارٹ کے پوائنٹس کو تیار کردہ ChartPoint ریپوزٹری کے ذریعے پڑھتا ہے، جسے ایک فراہم کنندہ ڈیمو میں بیان کرتا ہے — ہر ہستی کی فہرست جو اسٹیک لیتا ہے۔'
+    empty:
+      title: 'کوئی ڈیٹا نہیں'
+      description: 'خالی محور بنانے کے بجائے کچھ نہ ہونے والا چارٹ یہ کہتا ہے۔'
+  series:
+    orders: آرڈرز
+    returns: واپسی
+    revenue: آمدنی
+    work_orders: 'کام کے آرڈرز'
+    duration: مدت
+  stage:
+    weaving: بُنائی
+    finishing: 'ختم کرنا'
+    waiting: انتظار
+    shipping: شپنگ
+
+ja:
+  page_title: チャート
+  page_icon: 'ph:bold/chart-line'
+  intro: symfony-charts-dsのchart()関数：SVGで描画されたECharts。デザインシステムによって色付けされ、両方のカラースキームで、数値と月はページの言語で表示されます。チャートにカーソルを合わせると、正確な値が表示されます。
+  section:
+    line:
+      title: ライン
+      description: 2つの系列、スムーズ。1つ以上の系列があると、凡例が表示されます。
+    area:
+      title: スタックエリア
+      description: 同じ系列がスタックされている；2番目はカテゴリの最小値を取ります。
+    bar:
+      title: バー、ユーロで
+      description: 'フォーマット { style currency } — 軸上はコンパクト、ツールチップでは整数で表示。'
+    horizontal:
+      title: 横向きスタックバー
+      description: 横向きでスタックされ、ラベルがバーの下に収まりきらない場合に使用。
+    donut:
+      title: ドーナツ
+      description: 合計がどのように分配されるか；ツールチップ内の各部分の割合。
+    boxplot:
+      title: ボックスプロット
+      description: 生のサンプルからの各段階の所要時間：四分位数はコンポーネントによって計算されます。単位フォーマットは日数を記載します。
+    histogram:
+      title: ヒストグラム
+      description: 300の収穫が12の等幅のビンに分けられています。
+    endpoint:
+      title: APIから供給される
+      description: 'データの代わりにソースを与える：チャートは、デモが宣言したプロバイダーから生成されたChartPointリポジトリを通じて、そのチャートのポイントを読み取ります — スタックの各エンティティリストの進む道。'
+    empty:
+      title: データなし
+      description: 描画するものがないチャートは、空の軸を描く代わりにそう言います。
+  series:
+    orders: 注文
+    returns: 返品
+    revenue: 収益
+    work_orders: 作業指示
+    duration: 所要時間
+  stage:
+    weaving: 織り
+    finishing: 仕上げ
+    waiting: 待機中
+    shipping: 出荷中
+
+ko:
+  page_title: 차트
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds의 chart() 함수: SVG로 그려진 ECharts, 색상 체계에 따라 디자인 시스템으로 색칠됨, 숫자와 월은 페이지의 언어로 작성됨. 차트를 호버하면 정확한 값을 알 수 있습니다.'
+  section:
+    line:
+      title: 선
+      description: '두 개의 시리즈, 부드럽게 처리됨. 하나 이상의 항목이 있을 때 레전드가 표시됩니다.'
+    area:
+      title: '누적 면적'
+      description: '같은 시리즈가 쌓여 있음; 두 번째는 범주의 최솟값을 가져옵니다.'
+    bar:
+      title: '유로로 표시된 막대'
+      description: '형식 { style currency } — 축에서 압축되고, 툴팁에서는 전체로 표시됩니다.'
+    horizontal:
+      title: '수평 누적 막대'
+      description: '수평 및 누적, 레이블이 막대 아래에 서기에는 너무 긴 경우.'
+    donut:
+      title: 도넛
+      description: '총계가 어떻게 나뉘는지; 각 부분의 비율이 툴팁에 표시됩니다.'
+    boxplot:
+      title: '상자 그림'
+      description: '원시 샘플에서 단계별 기간: 사분위수는 구성 요소에 의해 계산됩니다. 단위 형식은 날짜를 씁니다.'
+    histogram:
+      title: 히스토그램
+      description: '300개의 결과, 12개의 동일한 너비의 구간으로 나누어짐.'
+    endpoint:
+      title: 'API를 통해 제공됨'
+      description: '데이터 대신 소스를 제공함: 차트는 생성된 ChartPoint 리포지토리를 통해 해당 차트의 포인트를 읽고, 데모가 선언한 제공자로부터 가져옵니다 — 스택의 모든 엔티티 목록이 가는 경로.'
+    empty:
+      title: '데이터 없음'
+      description: '그릴 내용이 없는 차트는 빈 축을 그리는 대신 그렇게 말합니다.'
+  series:
+    orders: 주문
+    returns: 반품
+    revenue: 수익
+    work_orders: '작업 주문'
+    duration: 기간
+  stage:
+    weaving: 직조
+    finishing: 마무리
+    waiting: 대기
+    shipping: 배송
+
+bn:
+  page_title: চার্ট
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds এর chart() ফাংশন: ECharts যা svg তে আঁকা, ডিজাইন সিস্টেম দ্বারা উভয় রঙের স্কিমে রাঙানো, সংখ্যা এবং মাস পৃষ্ঠার ভাষায় লেখা। একটি চার্টের উপর মাউস নিয়ে গেলে এর সঠিক মানগুলি দেখায়।'
+  section:
+    line:
+      title: লাইন
+      description: 'দুটি সিরিজ, মসৃণ। একটি এর বেশি হলে লিজেন্ড দেখানো হয়।'
+    area:
+      title: 'স্ট্যাকড এরিয়া'
+      description: 'একই সিরিজ স্ট্যাক করা; দ্বিতীয়টি ক্যাটাগরির মিন নেয়।'
+    bar:
+      title: 'বার, ইউরোতে'
+      description: 'ফরম্যাট { স্টাইল মুদ্রা } — অক্ষের উপর সংকুচিত, টুলটিপে সম্পূর্ণ।'
+    horizontal:
+      title: 'অনুভূমিক স্ট্যাকড বার'
+      description: 'অনুভূমিক এবং স্ট্যাকড, লেবেলগুলির জন্য খুব লম্বা।'
+    donut:
+      title: ডোনাট
+      description: 'একটি মোট কিভাবে বিভক্ত হয়; টুলটিপে প্রতিটি অংশের শেয়ার।'
+    boxplot:
+      title: 'বক্স প্লট'
+      description: 'প্রত্যেক স্তরের জন্য সময়কাল, কাঁচা নমুনা থেকে: চার্টের দ্বারা কুইরটাইলগুলি গণনা করা হয়। একটি ইউনিট ফরম্যাট দিন লিখে।'
+    histogram:
+      title: হিস্টোগ্রাম
+      description: 'তিনশো ফলন, বারোটি সমান প্রস্থের বিনে।'
+    endpoint:
+      title: 'এপিআই দ্বারা সরবরাহিত'
+      description: 'ডেটার পরিবর্তে একটি সোর্স দেওয়া হয়েছে: চার্টটি সেই চার্টের পয়েন্টগুলি উৎপন্ন ChartPoint রিপোজিটরি থেকে পড়ে, একটি প্রদায়ক যা ডেমো ঘোষণা করে — স্ট্যাকের প্রতিটি সত্তার তালিকার পথে।'
+    empty:
+      title: 'কোন ডেটা নেই'
+      description: 'কিছু আঁকার জন্য একটি চার্ট কিছু না থাকলে খালি অক্ষ আঁকার পরিবর্তে তা বলে।'
+  series:
+    orders: অর্ডার
+    returns: রিটার্ন
+    revenue: রাজস্ব
+    work_orders: 'কাজের অর্ডার'
+    duration: সময়কাল
+  stage:
+    weaving: বোনা
+    finishing: ফিনিশিং
+    waiting: অপেক্ষা
+    shipping: শিপিং
+
+th:
+  page_title: กราฟ
+  page_icon: 'ph:bold/chart-line'
+  intro: 'ฟังก์ชัน chart() ของ symfony-charts-ds: ECharts วาดใน svg, มีสีตามระบบออกแบบในทั้งสองโหมดสี, ตัวเลขและเดือนเขียนในภาษาของหน้าเว็บ. เลื่อนเมาส์ไปที่กราฟเพื่อดูค่าที่แน่นอนของมัน.'
+  section:
+    line:
+      title: เส้น
+      description: 'สองชุดข้อมูล, ปรับเรียบ. ตำนานจะแสดงเมื่อมีมากกว่าหนึ่ง.'
+    area:
+      title: พื้นที่ซ้อน
+      description: 'ชุดข้อมูลเดียวกันซ้อนกัน; ชุดที่สองใช้ค่าต่ำสุดของหมวดหมู่.'
+    bar:
+      title: 'แถบ, ในยูโร'
+      description: 'รูปแบบ { style currency } — กระชับบนแกน, เต็มในข้อมูลที่แสดง.'
+    horizontal:
+      title: แถบแนวนอนซ้อน
+      description: 'แนวนอนและซ้อน, สำหรับป้ายที่ยาวเกินไปที่จะอยู่ใต้แถบ.'
+    donut:
+      title: โดนัท
+      description: 'รวมทั้งหมดแบ่งออก; สัดส่วนของแต่ละส่วนในข้อมูลที่แสดง.'
+    boxplot:
+      title: กล่องพลอต
+      description: 'ระยะเวลาต่อขั้นตอน, จากตัวอย่างดิบ: ควอไทล์จะถูกคำนวณโดยส่วนประกอบ. รูปแบบหน่วยเขียนวัน.'
+    histogram:
+      title: ฮิสโตแกรม
+      description: 'สามร้อยผลผลิต, ในสิบสองช่องที่มีความกว้างเท่ากัน.'
+    endpoint:
+      title: 'จัดเตรียมโดย API'
+      description: 'ให้แหล่งข้อมูลแทนที่จะเป็นข้อมูล: กราฟอ่านจุดของกราฟนั้นผ่านที่เก็บ ChartPoint ที่สร้างขึ้น, จากผู้ให้บริการที่เดโมประกาศ — เส้นทางที่รายการของเอนทิตีในสแต็กแต่ละรายการใช้.'
+    empty:
+      title: ไม่มีข้อมูล
+      description: กราฟที่ไม่มีอะไรจะวาดบอกเช่นนั้นแทนที่จะวาดแกนว่างๆ.
+  series:
+    orders: คำสั่งซื้อ
+    returns: การคืนสินค้า
+    revenue: รายได้
+    work_orders: คำสั่งงาน
+    duration: ระยะเวลา
+  stage:
+    weaving: การทอ
+    finishing: การทำให้เสร็จ
+    waiting: การรอ
+    shipping: การจัดส่ง
+
+de:
+  page_title: Diagramme
+  page_icon: 'ph:bold/chart-line'
+  intro: 'Die chart() Funktion von symfony-charts-ds: ECharts, die in SVG gezeichnet werden, farblich gestaltet durch das Designsystem in beiden Farbschemata, Zahlen und Monate in der Sprache der Seite geschrieben. Fahren Sie mit der Maus über ein Diagramm für die genauen Werte.'
+  section:
+    line:
+      title: Linie
+      description: 'Zwei Serien, geglättet. Die Legende wird angezeigt, sobald es mehr als eine gibt.'
+    area:
+      title: 'Gestapelte Fläche'
+      description: 'Die gleiche Serie gestapelt; die zweite nimmt die Minima der Kategorien.'
+    bar:
+      title: 'Balken, in Euro'
+      description: 'Format { style currency } — kompakt auf der Achse, ganz im Tooltip.'
+    horizontal:
+      title: 'Horizontale gestapelte Balken'
+      description: 'horizontal und gestapelt, für Beschriftungen, die zu lang sind, um unter einem Balken zu stehen.'
+    donut:
+      title: Donut
+      description: 'Wie sich eine Gesamtsumme aufteilt; der Anteil jedes Teils im Tooltip.'
+    boxplot:
+      title: Boxplot
+      description: 'Dauern pro Phase, aus den Rohproben: die Quartile werden durch die Komponente berechnet. Ein Einheitenformat schreibt die Tage.'
+    histogram:
+      title: Histogramm
+      description: 'Dreihundert Erträge, in zwölf Bins gleicher Breite.'
+    endpoint:
+      title: 'Über die API gespeist'
+      description: 'Eine Quelle anstelle von Daten angegeben: das Diagramm liest die Punkte dieses Diagramms über das generierte ChartPoint-Repository, von einem Anbieter, den die Demo deklariert — der Weg, den jede Entitätenliste des Stacks nimmt.'
+    empty:
+      title: 'Keine Daten'
+      description: 'Ein Diagramm, das nichts zu zeichnen hat, sagt es anstelle von leeren Achsen.'
+  series:
+    orders: Bestellungen
+    returns: Rückgaben
+    revenue: Einnahmen
+    work_orders: Arbeitsaufträge
+    duration: Dauer
+  stage:
+    weaving: Weben
+    finishing: Verarbeitung
+    waiting: Warten
+    shipping: Versand
+
+fi:
+  page_title: Kaaviot
+  page_icon: 'ph:bold/chart-line'
+  intro: 'chart() -toiminto symfony-charts-ds: ECharts piirrettynä svg-muodossa, väritettynä suunnittelujärjestelmän mukaan molemmissa väriteemoissa, numerot ja kuukaudet kirjoitettu sivun kielellä. Vie hiiri kaavion päälle saadaksesi tarkat arvot.'
+  section:
+    line:
+      title: Viiva
+      description: 'Kaksi sarjaa, tasoitettuna. Selite näkyy heti, kun sarjoja on enemmän kuin yksi.'
+    area:
+      title: 'Pinoitu alue'
+      description: 'Samat sarjat pinoituna; toinen ottaa kategorioiden mintin.'
+    bar:
+      title: 'Palkit, euroina'
+      description: 'muoto { tyyli valuutta } — tiivistetty akselilla, kokonaisena työkaluvihjeessä.'
+    horizontal:
+      title: 'Vaakasuorat pinotut palkit'
+      description: 'vaakasuorat ja pinotut, kun tarrat ovat liian pitkiä mahtuakseen palkin alle.'
+    donut:
+      title: Donitsi
+      description: 'Kuinka kokonaisuus jakautuu; jokaisen osan osuus työkaluvihjeessä.'
+    boxplot:
+      title: 'Box plot'
+      description: 'Kestoja jokaisessa vaiheessa, raakatiedoista: kvartiilit lasketaan komponentin toimesta. Yksikkömuoto kirjoittaa päivät.'
+    histogram:
+      title: Histogrammi
+      description: 'Kolmesataa tuottoa, kahdessatoista yhtä leveässä laatikossa.'
+    endpoint:
+      title: 'API:n syöttämä'
+      description: 'Annettu lähde datan sijaan: kaavio lukee sen kaavion pisteet luodun ChartPoint-rekisterin kautta, tarjoajalta, jonka demo ilmoittaa — tie, jota jokaisen entiteettilistauksen pino kulkee.'
+    empty:
+      title: 'Ei tietoja'
+      description: 'Kaavio, jossa ei ole mitään piirrettävää, sanoo niin sen sijaan, että piirtäisi tyhjät akselit.'
+  series:
+    orders: Tilaukset
+    returns: Palautukset
+    revenue: Tulot
+    work_orders: Työtilaukset
+    duration: Kesto
+  stage:
+    weaving: Kudonta
+    finishing: Viimeistely
+    waiting: Odotus
+    shipping: Toimitus
+
+ru:
+  page_title: Графики
+  page_icon: 'ph:bold/chart-line'
+  intro: 'Функция chart() из symfony-charts-ds: ECharts, нарисованные в svg, окрашенные по дизайн-системе в обеих цветовых схемах, числа и месяцы написаны на языке страницы. Наведите курсор на график для получения точных значений.'
+  section:
+    line:
+      title: Линия
+      description: 'Две серии, сглаженные. Легенда появляется, как только есть больше одной.'
+    area:
+      title: 'Накопленная область'
+      description: 'Одна и та же серия, сложенная; вторая занимает мин. категорий.'
+    bar:
+      title: 'Столбцы, в евро'
+      description: 'формат { стиль валюта } — компактно на оси, целиком в подсказке.'
+    horizontal:
+      title: 'Горизонтальные сложенные столбцы'
+      description: 'горизонтальные и сложенные, для меток, слишком длинных, чтобы стоять под столбцом.'
+    donut:
+      title: 'Круговая диаграмма'
+      description: 'Как делится сумма; доля каждой части в подсказке.'
+    boxplot:
+      title: 'Ящичный график'
+      description: 'Длительности по этапам, из сырых образцов: квартиль рассчитывается компонентом. Формат единицы записывает дни.'
+    histogram:
+      title: Гистограмма
+      description: 'Триста доходов, в двенадцати бинах равной ширины.'
+    endpoint:
+      title: 'Питается от api'
+      description: 'Указан источник вместо данных: график считывает точки этого графика через сгенерированный репозиторий ChartPoint, от провайдера, который объявляет демонстрация — путь, который принимает каждый список сущностей стека.'
+    empty:
+      title: 'Нет данных'
+      description: 'График без чего-либо для рисования говорит об этом вместо рисования пустых осей.'
+  series:
+    orders: Заказы
+    returns: Возвраты
+    revenue: Выручка
+    work_orders: 'Рабочие заказы'
+    duration: Длительность
+  stage:
+    weaving: Ткачество
+    finishing: Отделка
+    waiting: Ожидание
+    shipping: Отгрузка
+
+pl:
+  page_title: Wykresy
+  page_icon: 'ph:bold/chart-line'
+  intro: 'Funkcja chart() z symfony-charts-ds: ECharts rysowane w svg, kolorowane przez system projektowania w obu schematach kolorystycznych, liczby i miesiące zapisane w języku strony. Najedź na wykres, aby zobaczyć dokładne wartości.'
+  section:
+    line:
+      title: Linia
+      description: 'Dwie serie, wygładzone. Legenda pokazuje się, gdy jest więcej niż jedna seria.'
+    area:
+      title: 'Strefa skumulowana'
+      description: 'Te same serie ułożone jedna na drugiej; druga zajmuje minimum kategorii.'
+    bar:
+      title: 'Słupki, w euro'
+      description: 'format { styl waluta } — zwarte na osi, całkowite w podpowiedzi.'
+    horizontal:
+      title: 'Poziome słupki skumulowane'
+      description: 'poziome i skumulowane, dla etykiet zbyt długich, by stać pod słupkiem.'
+    donut:
+      title: Donut
+      description: 'Jak całkowita wartość się dzieli; udział każdej części w podpowiedzi.'
+    boxplot:
+      title: 'Wykres pudełkowy'
+      description: 'Czasy na etapie, z surowych próbek: kwartyle są obliczane przez komponent. Format jednostki zapisał dni.'
+    histogram:
+      title: Histogram
+      description: 'Trzysta wyników, w dwunastu przedziałach o równej szerokości.'
+    endpoint:
+      title: 'Zasilane przez API'
+      description: 'Podano źródło zamiast danych: wykres odczytuje punkty tego wykresu przez wygenerowaną repozytorium ChartPoint, z dostawcy, który demon deklaruje — droga, którą każda lista encji stosu podąża.'
+    empty:
+      title: 'Brak danych'
+      description: 'Wykres bez niczego do narysowania mówi to zamiast rysować puste osie.'
+  series:
+    orders: Zamówienia
+    returns: Zwroty
+    revenue: Przychody
+    work_orders: 'Zlecenia robocze'
+    duration: 'Czas trwania'
+  stage:
+    weaving: Tkanie
+    finishing: Wykończenie
+    waiting: Oczekiwanie
+    shipping: Wysyłka
+
+es:
+  page_title: Gráficos
+  page_icon: 'ph:bold/chart-line'
+  intro: 'La función chart() de symfony-charts-ds: ECharts dibujados en svg, coloreados por el sistema de diseño en ambos esquemas de color, números y meses escritos en el idioma de la página. Pasa el cursor sobre un gráfico para ver sus valores exactos.'
+  section:
+    line:
+      title: Línea
+      description: 'Dos series, suavizadas. La leyenda aparece tan pronto como hay más de una.'
+    area:
+      title: 'Área apilada'
+      description: 'Las mismas series apiladas; la segunda toma el mínimo de las categorías.'
+    bar:
+      title: 'Barras, en euros'
+      description: 'formato { estilo moneda } — compacto en el eje, entero en el tooltip.'
+    horizontal:
+      title: 'Barras apiladas horizontales'
+      description: 'horizontales y apiladas, para etiquetas demasiado largas para estar debajo de una barra.'
+    donut:
+      title: Donut
+      description: 'Cómo se divide un total; la participación de cada parte en el tooltip.'
+    boxplot:
+      title: 'Box plot'
+      description: 'Duraciones por etapa, a partir de las muestras en bruto: los cuartiles son calculados por el componente. Un formato de unidad escribe los días.'
+    histogram:
+      title: Histograma
+      description: 'Trescientos rendimientos, en doce intervalos de igual ancho.'
+    endpoint:
+      title: 'Alimentado por la api'
+      description: 'Dada una fuente en lugar de datos: el gráfico lee los puntos de ese gráfico a través del repositorio de ChartPoint generado, de un proveedor que la demostración declara — el camino que cada lista de entidades de la pila toma.'
+    empty:
+      title: 'Sin datos'
+      description: 'Un gráfico sin nada que dibujar lo dice en lugar de dibujar ejes vacíos.'
+  series:
+    orders: Órdenes
+    returns: Devoluciones
+    revenue: Ingresos
+    work_orders: 'Órdenes de trabajo'
+    duration: Duración
+  stage:
+    weaving: Tejido
+    finishing: Acabado
+    waiting: Esperando
+    shipping: Envío
+
+it:
+  page_title: Grafici
+  page_icon: 'ph:bold/chart-line'
+  intro: 'La funzione chart() di symfony-charts-ds: ECharts disegnati in svg, colorati dal sistema di design in entrambi gli schemi di colore, numeri e mesi scritti nella lingua della pagina. Passa sopra un grafico per i suoi valori esatti.'
+  section:
+    line:
+      title: Linea
+      description: "Due serie, smussate. La legenda appare non appena ce n'è più di una."
+    area:
+      title: 'Area impilata'
+      description: 'Le stesse serie impilate; la seconda prende la menta delle categorie.'
+    bar:
+      title: 'Barre, in euro'
+      description: "formato { stile valuta } — compatto sull'asse, intero nel tooltip."
+    horizontal:
+      title: 'Barre orizzontali impilate'
+      description: 'orizzontali e impilate, per etichette troppo lunghe per stare sotto una barra.'
+    donut:
+      title: Donut
+      description: 'Come si divide un totale; la quota di ogni parte nel tooltip.'
+    boxplot:
+      title: 'Box plot'
+      description: 'Durate per fase, dai campioni grezzi: i quartili sono calcolati dal componente. Un formato unitario scrive i giorni.'
+    histogram:
+      title: Istogramma
+      description: 'Trecento rendimenti, in dodici intervalli di uguale larghezza.'
+    endpoint:
+      title: "Alimentato dall'api"
+      description: 'Data una sorgente invece dei dati: il grafico legge i punti di quel grafico attraverso il repository ChartPoint generato, da un provider che la demo dichiara — il percorso che ogni elenco di entità dello stack prende.'
+    empty:
+      title: 'Nessun dato'
+      description: 'Un grafico senza nulla da disegnare lo dice piuttosto che disegnare assi vuoti.'
+  series:
+    orders: Ordini
+    returns: Resi
+    revenue: Entrate
+    work_orders: 'Ordini di lavoro'
+    duration: Durata
+  stage:
+    weaving: Tessitura
+    finishing: Finitura
+    waiting: Attesa
+    shipping: Spedizione
+
+pt_BR:
+  page_title: Gráficos
+  page_icon: 'ph:bold/chart-line'
+  intro: 'A função chart() do symfony-charts-ds: ECharts desenhados em svg, coloridos pelo sistema de design em ambos os esquemas de cores, números e meses escritos na língua da página. Passe o mouse sobre um gráfico para ver seus valores exatos.'
+  section:
+    line:
+      title: Linha
+      description: 'Duas séries, suavizadas. A legenda aparece assim que há mais de uma.'
+    area:
+      title: 'Área empilhada'
+      description: 'As mesmas séries empilhadas; a segunda leva a mínima das categorias.'
+    bar:
+      title: 'Barras, em euros'
+      description: 'formato { estilo moeda } — compacto no eixo, inteiro na dica.'
+    horizontal:
+      title: 'Barras empilhadas horizontais'
+      description: 'horizontal e empilhadas, para rótulos muito longos para ficarem sob uma barra.'
+    donut:
+      title: Donut
+      description: 'Como um total se divide; a participação de cada parte na dica.'
+    boxplot:
+      title: 'Box plot'
+      description: 'Durações por estágio, a partir das amostras brutas: os quartis são calculados pelo componente. Um formato de unidade escreve os dias.'
+    histogram:
+      title: Histograma
+      description: 'Trezentos rendimentos, em doze bins de largura igual.'
+    endpoint:
+      title: 'Alimentado pela api'
+      description: 'Dada uma fonte em vez de dados: o gráfico lê os pontos daquele gráfico através do repositório ChartPoint gerado, de um provedor que a demonstração declara — o caminho que cada lista de entidades do stack toma.'
+    empty:
+      title: 'Sem dados'
+      description: 'Um gráfico sem nada para desenhar diz isso em vez de desenhar eixos vazios.'
+  series:
+    orders: Pedidos
+    returns: Devoluções
+    revenue: Receita
+    work_orders: 'Ordens de serviço'
+    duration: Duração
+  stage:
+    weaving: Tecelagem
+    finishing: Acabamento
+    waiting: Aguardando
+    shipping: Envio
+
+tr:
+  page_title: Grafikler
+  page_icon: 'ph:bold/chart-line'
+  intro: 'symfony-charts-ds kütüphanesinin chart() fonksiyonu: svg içinde çizilen ECharts, tasarım sistemine göre her iki renk şemasında renklendirilmiş, sayfalardaki dilde yazılmış sayılar ve aylar. Bir grafiğin üzerine gelerek kesin değerlerini öğrenin.'
+  section:
+    line:
+      title: Çizgi
+      description: 'İki seri, yumuşatılmış. Birden fazla varsa, efsane hemen gösterilir.'
+    area:
+      title: 'Yığılmış alan'
+      description: 'Aynı seriler yığılmış; ikincisi kategorilerin minimumunu alır.'
+    bar:
+      title: 'Çubuklar, euro cinsinden'
+      description: 'format { style currency } — eksende kompakt, ipucunda tam olarak gösterilir.'
+    horizontal:
+      title: 'Yatay yığılmış çubuklar'
+      description: 'yatay ve yığılmış, bir çubuğun altında durmak için etiketler çok uzunsa.'
+    donut:
+      title: Donut
+      description: 'Bir toplamın nasıl bölündüğünü; her parçanın payı ipucunda gösterilir.'
+    boxplot:
+      title: 'Kutu grafiği'
+      description: 'Ham örneklerden, her aşama için süreler: çeyrekler bileşen tarafından hesaplanır. Birim formatı günleri yazar.'
+    histogram:
+      title: Histogram
+      description: 'Eşit genişlikte on iki kutucukta üç yüz verim.'
+    endpoint:
+      title: 'API tarafından sağlanan'
+      description: 'Veri yerine bir kaynak verildiğinde: grafik, demo tarafından belirtilen bir sağlayıcıdan oluşturulan ChartPoint deposu aracılığıyla o grafiğin noktalarını okur — yığın içindeki her varlık listesinin aldığı yol.'
+    empty:
+      title: 'Veri yok'
+      description: 'Çizilecek hiçbir şeyi olmayan bir grafik, boş eksenler çizmek yerine bunu söyler.'
+  series:
+    orders: Siparişler
+    returns: İadeler
+    revenue: Gelir
+    work_orders: 'İş emirleri'
+    duration: Süre
+  stage:
+    weaving: Dokuma
+    finishing: Tamamlama
+    waiting: Bekleme
+    shipping: Gönderim
+
+vi:
+  page_title: 'Biểu đồ'
+  page_icon: 'ph:bold/chart-line'
+  intro: 'Hàm chart() của symfony-charts-ds: ECharts được vẽ bằng svg, được tô màu theo hệ thống thiết kế trong cả hai chế độ màu, số và tháng được viết bằng ngôn ngữ của trang. Di chuột qua một biểu đồ để xem giá trị chính xác của nó.'
+  section:
+    line:
+      title: Đường
+      description: 'Hai chuỗi, được làm mượt. Chú thích sẽ hiển thị ngay khi có nhiều hơn một.'
+    area:
+      title: 'Khu vực chồng'
+      description: 'Chuỗi giống nhau được chồng lên; chuỗi thứ hai lấy giá trị tối thiểu của các danh mục.'
+    bar:
+      title: 'Cột, bằng euro'
+      description: 'định dạng { phong cách tiền tệ } — gọn gàng trên trục, nguyên vẹn trong tooltip.'
+    horizontal:
+      title: 'Cột chồng ngang'
+      description: 'ngang và chồng, cho các nhãn quá dài để đứng dưới một cột.'
+    donut:
+      title: 'Bánh donut'
+      description: 'Cách một tổng số được chia; tỷ lệ của mỗi phần trong tooltip.'
+    boxplot:
+      title: 'Biểu đồ hộp'
+      description: 'Thời gian theo từng giai đoạn, từ các mẫu thô: các phần tư được tính toán bởi thành phần. Một định dạng đơn vị ghi lại số ngày.'
+    histogram:
+      title: 'Biểu đồ tần suất'
+      description: 'Ba trăm sản phẩm, trong mười hai khung có chiều rộng bằng nhau.'
+    endpoint:
+      title: 'Được cung cấp bởi api'
+      description: 'Cung cấp một nguồn thay vì dữ liệu: biểu đồ đọc các điểm của biểu đồ đó thông qua kho lưu trữ ChartPoint được tạo ra, từ một nhà cung cấp mà bản demo tuyên bố — con đường mà mỗi danh sách thực thể của ngăn xếp lấy.'
+    empty:
+      title: 'Không có dữ liệu'
+      description: 'Một biểu đồ không có gì để vẽ thì nói vậy thay vì vẽ trục trống.'
+  series:
+    orders: 'Đơn hàng'
+    returns: 'Trả lại'
+    revenue: 'Doanh thu'
+    work_orders: 'Đơn đặt hàng công việc'
+    duration: 'Thời gian'
+  stage:
+    weaving: Dệt
+    finishing: 'Hoàn thiện'
+    waiting: 'Đang chờ'
+    shipping: 'Vận chuyển'
+
+id:
+  page_title: Grafik
+  page_icon: 'ph:bold/chart-line'
+  intro: 'Fungsi chart() dari symfony-charts-ds: ECharts yang digambar dalam svg, diberi warna sesuai dengan sistem desain dalam kedua skema warna, angka dan bulan ditulis dalam bahasa halaman. Arahkan kursor ke grafik untuk nilai yang tepat.'
+  section:
+    line:
+      title: Garis
+      description: 'Dua seri, halus. Legenda muncul segera setelah ada lebih dari satu.'
+    area:
+      title: 'Area tumpuk'
+      description: 'Seri yang sama ditumpuk; yang kedua mengambil mint dari kategori.'
+    bar:
+      title: 'Batang, dalam euro'
+      description: 'format { gaya mata uang } — kompak di sumbu, utuh di tooltip.'
+    horizontal:
+      title: 'Batang tumpuk horizontal'
+      description: 'horizontal dan ditumpuk, untuk label yang terlalu panjang untuk berdiri di bawah batang.'
+    donut:
+      title: Donat
+      description: 'Bagaimana total dibagi; bagian dari setiap bagian di tooltip.'
+    boxplot:
+      title: 'Box plot'
+      description: 'Durasi per tahap, dari sampel mentah: kuartil dihitung oleh komponen. Format unit menuliskan hari.'
+    histogram:
+      title: Histogram
+      description: 'Tiga ratus hasil, dalam dua belas bin dengan lebar yang sama.'
+    endpoint:
+      title: 'Diberi oleh api'
+      description: 'Diberikan sumber sebagai ganti data: grafik membaca titik-titik grafik tersebut melalui repositori ChartPoint yang dihasilkan, dari penyedia yang dideklarasikan demo — jalan yang diambil setiap daftar entitas dari tumpukan.'
+    empty:
+      title: 'Tidak ada data'
+      description: 'Sebuah grafik tanpa apa-apa untuk digambar mengatakan demikian daripada menggambar sumbu kosong.'
+  series:
+    orders: Pesanan
+    returns: Pengembalian
+    revenue: Pendapatan
+    work_orders: 'Pesanan kerja'
+    duration: Durasi
+  stage:
+    weaving: Menjahit
+    finishing: Penyelesaian
+    waiting: Menunggu
+    shipping: Pengiriman
+
+nl:
+  page_title: Grafieken
+  page_icon: 'ph:bold/chart-line'
+  intro: "De chart() functie van symfony-charts-ds: ECharts getekend in svg, gekleurd door het ontwerpsysteem in beide kleurenschema's, getallen en maanden geschreven in de taal van de pagina. Hover over een grafiek voor de exacte waarden."
+  section:
+    line:
+      title: Lijn
+      description: 'Twee series, gladgestreken. De legenda verschijnt zodra er meer dan één is.'
+    area:
+      title: 'Gestapeld gebied'
+      description: 'Dezelfde series gestapeld; de tweede neemt de minimumwaarde van de categorieën.'
+    bar:
+      title: "Staven, in euro's"
+      description: 'formaat { stijl valuta } — compact op de as, heel in de tooltip.'
+    horizontal:
+      title: 'Horizontale gestapelde staven'
+      description: 'horizontaal en gestapeld, voor labels die te lang zijn om onder een staaf te staan.'
+    donut:
+      title: Donut
+      description: 'Hoe een totaal zich verdeelt; het aandeel van elk deel in de tooltip.'
+    boxplot:
+      title: Boxplot
+      description: 'Duur per fase, van de ruwe monsters: de kwartielen worden berekend door de component. Een eenheidsformaat schrijft de dagen.'
+    histogram:
+      title: Histogram
+      description: 'Driehonderd opbrengsten, in twaalf bakken van gelijke breedte.'
+    endpoint:
+      title: 'Voed door de api'
+      description: 'Gegeven een bron in plaats van data: de grafiek leest de punten van die grafiek via de gegenereerde ChartPoint repository, van een provider die de demo verklaart — de weg die elke entiteitenlijst van de stack neemt.'
+    empty:
+      title: 'Geen data'
+      description: 'Een grafiek met niets om te tekenen zegt dat in plaats van lege assen te tekenen.'
+  series:
+    orders: Bestellingen
+    returns: Retouren
+    revenue: Omzet
+    work_orders: Werkorders
+    duration: Duur
+  stage:
+    weaving: Weven
+    finishing: Afwerking
+    waiting: Wachten
+    shipping: Verzenden
