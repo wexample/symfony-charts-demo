@@ -758,7 +758,8 @@
     "pages/charts/index.fr.yml": {
         "document_title": {
             "hash": "d8058a6b014a92c2abb5848d42b776ff",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/charts/index.he.yml": {
@@ -3002,7 +3003,8 @@
     "pages/charts/steering.fr.yml": {
         "document_title": {
             "hash": "a352c2e31e0c71fbde830622a00d688b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/charts/steering.he.yml": {
