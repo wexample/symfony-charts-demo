@@ -1,6 +1,6 @@
 # symfony-charts-demo
 
-Version: 2.0.5
+Version: 2.0.6
 
 ## What this package holds
 
@@ -39,11 +39,11 @@ The suite includes packages for configuration management, file handling, prompts
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-charts: >=2.1.0
-- wexample/symfony-charts-ds: >=2.0.0
-- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-charts: >=3.0.0
+- wexample/symfony-charts-ds: >=3.0.0
+- wexample/symfony-design-system: >=38.0.0
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.2.0
+- wexample/symfony-loader: >=23.3.0
 
 ## Versioning & Compatibility Policy
 
