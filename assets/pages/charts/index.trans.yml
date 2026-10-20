@@ -1,5 +1,6 @@
 en:
   page_title: Charts
+  page_description: "Interactive charts drawn with ECharts in SVG — line, area, bar and more — coloured by the design system, in light and dark, in the page's language."
   page_icon: ph:bold/chart-line
   intro: >-
     The chart() function of symfony-charts-ds: ECharts drawn in svg, coloured
@@ -52,6 +53,7 @@ en:
 
 fr:
   page_title: Graphiques
+  page_description: "Des graphiques interactifs dessinés en SVG avec ECharts — courbes, aires, barres et plus — colorés par le design system, en clair et en sombre, dans la langue de la page."
   page_icon: ph:bold/chart-line
   intro: >-
     La fonction chart() de symfony-charts-ds : ECharts dessiné en svg, coloré
@@ -104,6 +106,7 @@ fr:
 
 zh:
   page_title: 图表
+  page_description: "使用 ECharts 以 SVG 绘制的交互式图表——折线图、面积图、柱状图等——由设计系统配色，支持浅色与深色模式，并使用页面语言。"
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds 的 chart() 函数：用 svg 绘制的 ECharts，按照设计系统的配色方案着色，数字和月份使用页面语言书写。将鼠标悬停在图表上可查看其确切值。'
   section:
@@ -148,6 +151,7 @@ zh:
 
 ar:
   page_title: المخططات
+  page_description: "رسوم بيانية تفاعلية مرسومة بـ ECharts بصيغة SVG — خطية ومساحية وأعمدة وغيرها — ملوّنة بنظام التصميم، بالوضعين الفاتح والداكن، وبلغة الصفحة."
   page_icon: 'ph:bold/chart-line'
   intro: 'دالة chart() في symfony-charts-ds: المخططات الموجودة في svg، ملونة وفقًا لنظام التصميم في كلا نظامي الألوان، الأرقام والأشهر مكتوبة بلغة الصفحة. مرر فوق المخطط لرؤية قيمه الدقيقة.'
   section:
@@ -192,6 +196,7 @@ ar:
 
 hi:
   page_title: चार्ट्स
+  page_description: "ECharts से SVG में बने इंटरैक्टिव चार्ट — लाइन, एरिया, बार और अन्य — डिज़ाइन सिस्टम के रंगों में, लाइट और डार्क दोनों में, पेज की भाषा में।"
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds का chart() फ़ंक्शन: ECharts जो svg में बनाए जाते हैं, डिज़ाइन सिस्टम द्वारा दोनों रंग योजनाओं में रंगीन, संख्याएँ और महीने पृष्ठ की भाषा में लिखे जाते हैं। चार्ट पर होवर करें इसके सटीक मानों के लिए।'
   section:
@@ -236,6 +241,7 @@ hi:
 
 he:
   page_title: תרשימים
+  page_description: "תרשימים אינטראקטיביים המצוירים ב-SVG עם ECharts — קו, שטח, עמודות ועוד — בצבעי מערכת העיצוב, בבהיר ובכהה, בשפת העמוד."
   page_icon: 'ph:bold/chart-line'
   intro: 'הפונקציה chart() של symfony-charts-ds: ECharts מצויירים ב-svg, בצבעים של מערכת העיצוב בשני סכמות צבע, מספרים וחודשים כתובים בשפה של הדף. רדו על תרשים כדי לראות את הערכים המדויקים שלו.'
   section:
@@ -280,6 +286,7 @@ he:
 
 fa:
   page_title: نمودارها
+  page_description: "نمودارهای تعاملی ترسیم‌شده با ECharts در قالب SVG — خطی، مساحتی، میله‌ای و بیشتر — با رنگ‌های سیستم طراحی، در حالت روشن و تیره و به زبان صفحه."
   page_icon: 'ph:bold/chart-line'
   intro: 'تابع chart() از symfony-charts-ds: ECharts که در svg رسم شده و با سیستم طراحی در هر دو طرح رنگی رنگ‌آمیزی شده است، اعداد و ماه‌ها به زبان صفحه نوشته می‌شوند. بر روی یک نمودار حرکت کنید تا مقادیر دقیق آن را ببینید.'
   section:
@@ -324,6 +331,7 @@ fa:
 
 ur:
   page_title: چارٹس
+  page_description: "ECharts سے SVG میں بنے انٹرایکٹو چارٹس — لائن، ایریا، بار اور مزید — ڈیزائن سسٹم کے رنگوں میں، لائٹ اور ڈارک دونوں میں، صفحے کی زبان میں۔"
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds کا chart() فنکشن: ECharts جو svg میں بنائے گئے ہیں، ڈیزائن سسٹم کے مطابق دونوں رنگ سکیموں میں رنگین ہیں، نمبر اور مہینے صفحے کی زبان میں لکھے گئے ہیں۔ درست قیمتوں کے لیے چارٹ پر ہور کریں۔'
   section:
@@ -368,6 +376,7 @@ ur:
 
 ja:
   page_title: チャート
+  page_description: "ECharts で SVG 描画されたインタラクティブなグラフ。折れ線、面、棒グラフなどを、デザインシステムの配色でライトとダークの両方に、ページの言語で表示。"
   page_icon: 'ph:bold/chart-line'
   intro: symfony-charts-dsのchart()関数：SVGで描画されたECharts。デザインシステムによって色付けされ、両方のカラースキームで、数値と月はページの言語で表示されます。チャートにカーソルを合わせると、正確な値が表示されます。
   section:
@@ -412,6 +421,7 @@ ja:
 
 ko:
   page_title: 차트
+  page_description: "ECharts로 SVG에 그린 인터랙티브 차트 — 선, 영역, 막대 등 — 디자인 시스템 색상으로, 라이트와 다크 모드에서, 페이지 언어로."
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds의 chart() 함수: SVG로 그려진 ECharts, 색상 체계에 따라 디자인 시스템으로 색칠됨, 숫자와 월은 페이지의 언어로 작성됨. 차트를 호버하면 정확한 값을 알 수 있습니다.'
   section:
@@ -456,6 +466,7 @@ ko:
 
 bn:
   page_title: চার্ট
+  page_description: "ECharts দিয়ে SVG-তে আঁকা ইন্টারঅ্যাকটিভ চার্ট — লাইন, এরিয়া, বার এবং আরও — ডিজাইন সিস্টেমের রঙে, লাইট ও ডার্ক মোডে, পেজের ভাষায়।"
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds এর chart() ফাংশন: ECharts যা svg তে আঁকা, ডিজাইন সিস্টেম দ্বারা উভয় রঙের স্কিমে রাঙানো, সংখ্যা এবং মাস পৃষ্ঠার ভাষায় লেখা। একটি চার্টের উপর মাউস নিয়ে গেলে এর সঠিক মানগুলি দেখায়।'
   section:
@@ -500,6 +511,7 @@ bn:
 
 th:
   page_title: กราฟ
+  page_description: "แผนภูมิแบบโต้ตอบที่วาดด้วย ECharts เป็น SVG — เส้น พื้นที่ แท่ง และอื่น ๆ — ใช้สีจากดีไซน์ซิสเต็ม ทั้งโหมดสว่างและมืด ในภาษาของหน้า"
   page_icon: 'ph:bold/chart-line'
   intro: 'ฟังก์ชัน chart() ของ symfony-charts-ds: ECharts วาดใน svg, มีสีตามระบบออกแบบในทั้งสองโหมดสี, ตัวเลขและเดือนเขียนในภาษาของหน้าเว็บ. เลื่อนเมาส์ไปที่กราฟเพื่อดูค่าที่แน่นอนของมัน.'
   section:
@@ -544,6 +556,7 @@ th:
 
 de:
   page_title: Diagramme
+  page_description: "Interaktive Diagramme, mit ECharts in SVG gezeichnet — Linien, Flächen, Balken und mehr — in den Farben des Designsystems, hell und dunkel, in der Sprache der Seite."
   page_icon: 'ph:bold/chart-line'
   intro: 'Die chart() Funktion von symfony-charts-ds: ECharts, die in SVG gezeichnet werden, farblich gestaltet durch das Designsystem in beiden Farbschemata, Zahlen und Monate in der Sprache der Seite geschrieben. Fahren Sie mit der Maus über ein Diagramm für die genauen Werte.'
   section:
@@ -588,6 +601,7 @@ de:
 
 fi:
   page_title: Kaaviot
+  page_description: "Interaktiivisia kaavioita ECharts-kirjastolla SVG:nä — viiva-, alue-, pylväskaaviot ja muut — design systemin väreissä, vaaleana ja tummana, sivun kielellä."
   page_icon: 'ph:bold/chart-line'
   intro: 'chart() -toiminto symfony-charts-ds: ECharts piirrettynä svg-muodossa, väritettynä suunnittelujärjestelmän mukaan molemmissa väriteemoissa, numerot ja kuukaudet kirjoitettu sivun kielellä. Vie hiiri kaavion päälle saadaksesi tarkat arvot.'
   section:
@@ -632,6 +646,7 @@ fi:
 
 ru:
   page_title: Графики
+  page_description: "Интерактивные графики на ECharts в SVG — линейные, площадные, столбчатые и другие — в цветах дизайн-системы, в светлой и тёмной теме, на языке страницы."
   page_icon: 'ph:bold/chart-line'
   intro: 'Функция chart() из symfony-charts-ds: ECharts, нарисованные в svg, окрашенные по дизайн-системе в обеих цветовых схемах, числа и месяцы написаны на языке страницы. Наведите курсор на график для получения точных значений.'
   section:
@@ -676,6 +691,7 @@ ru:
 
 pl:
   page_title: Wykresy
+  page_description: "Interaktywne wykresy rysowane w SVG przez ECharts — liniowe, warstwowe, słupkowe i inne — w kolorach design systemu, jasno i ciemno, w języku strony."
   page_icon: 'ph:bold/chart-line'
   intro: 'Funkcja chart() z symfony-charts-ds: ECharts rysowane w svg, kolorowane przez system projektowania w obu schematach kolorystycznych, liczby i miesiące zapisane w języku strony. Najedź na wykres, aby zobaczyć dokładne wartości.'
   section:
@@ -720,6 +736,7 @@ pl:
 
 es:
   page_title: Gráficos
+  page_description: "Gráficos interactivos dibujados en SVG con ECharts — líneas, áreas, barras y más — con los colores del sistema de diseño, en claro y oscuro, en el idioma de la página."
   page_icon: 'ph:bold/chart-line'
   intro: 'La función chart() de symfony-charts-ds: ECharts dibujados en svg, coloreados por el sistema de diseño en ambos esquemas de color, números y meses escritos en el idioma de la página. Pasa el cursor sobre un gráfico para ver sus valores exactos.'
   section:
@@ -764,6 +781,7 @@ es:
 
 it:
   page_title: Grafici
+  page_description: "Grafici interattivi disegnati in SVG con ECharts — linee, aree, barre e altro — nei colori del design system, in chiaro e scuro, nella lingua della pagina."
   page_icon: 'ph:bold/chart-line'
   intro: 'La funzione chart() di symfony-charts-ds: ECharts disegnati in svg, colorati dal sistema di design in entrambi gli schemi di colore, numeri e mesi scritti nella lingua della pagina. Passa sopra un grafico per i suoi valori esatti.'
   section:
@@ -808,6 +826,7 @@ it:
 
 pt_BR:
   page_title: Gráficos
+  page_description: "Gráficos interativos desenhados em SVG com ECharts — linhas, áreas, barras e mais — com as cores do design system, no claro e no escuro, no idioma da página."
   page_icon: 'ph:bold/chart-line'
   intro: 'A função chart() do symfony-charts-ds: ECharts desenhados em svg, coloridos pelo sistema de design em ambos os esquemas de cores, números e meses escritos na língua da página. Passe o mouse sobre um gráfico para ver seus valores exatos.'
   section:
@@ -852,6 +871,7 @@ pt_BR:
 
 tr:
   page_title: Grafikler
+  page_description: "ECharts ile SVG olarak çizilen etkileşimli grafikler — çizgi, alan, çubuk ve daha fazlası — tasarım sistemi renklerinde, açık ve koyu temada, sayfanın dilinde."
   page_icon: 'ph:bold/chart-line'
   intro: 'symfony-charts-ds kütüphanesinin chart() fonksiyonu: svg içinde çizilen ECharts, tasarım sistemine göre her iki renk şemasında renklendirilmiş, sayfalardaki dilde yazılmış sayılar ve aylar. Bir grafiğin üzerine gelerek kesin değerlerini öğrenin.'
   section:
@@ -896,6 +916,7 @@ tr:
 
 vi:
   page_title: 'Biểu đồ'
+  page_description: "Biểu đồ tương tác vẽ bằng ECharts dạng SVG — đường, vùng, cột và hơn thế — theo màu của design system, ở chế độ sáng và tối, bằng ngôn ngữ của trang."
   page_icon: 'ph:bold/chart-line'
   intro: 'Hàm chart() của symfony-charts-ds: ECharts được vẽ bằng svg, được tô màu theo hệ thống thiết kế trong cả hai chế độ màu, số và tháng được viết bằng ngôn ngữ của trang. Di chuột qua một biểu đồ để xem giá trị chính xác của nó.'
   section:
@@ -940,6 +961,7 @@ vi:
 
 id:
   page_title: Grafik
+  page_description: "Grafik interaktif yang digambar dengan ECharts dalam SVG — garis, area, batang, dan lainnya — berwarna design system, dalam mode terang dan gelap, dalam bahasa halaman."
   page_icon: 'ph:bold/chart-line'
   intro: 'Fungsi chart() dari symfony-charts-ds: ECharts yang digambar dalam svg, diberi warna sesuai dengan sistem desain dalam kedua skema warna, angka dan bulan ditulis dalam bahasa halaman. Arahkan kursor ke grafik untuk nilai yang tepat.'
   section:
@@ -984,6 +1006,7 @@ id:
 
 nl:
   page_title: Grafieken
+  page_description: "Interactieve grafieken, met ECharts in SVG getekend — lijnen, vlakken, staven en meer — in de kleuren van het designsysteem, licht en donker, in de taal van de pagina."
   page_icon: 'ph:bold/chart-line'
   intro: "De chart() functie van symfony-charts-ds: ECharts getekend in svg, gekleurd door het ontwerpsysteem in beide kleurenschema's, getallen en maanden geschreven in de taal van de pagina. Hover over een grafiek voor de exacte waarden."
   section:

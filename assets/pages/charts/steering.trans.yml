@@ -1,5 +1,6 @@
 en:
   page_title: Steering
+  page_description: "A production steering screen in charts: load against capacity, output against forecast, orders per item, with configurable warning thresholds."
   page_icon: ph:bold/gauge
   intro: >-
     The charts a production steering screen is made of, on made-up figures:
@@ -29,6 +30,7 @@ en:
 
 fr:
   page_title: Pilotage
+  page_description: "Un écran de pilotage de production en graphiques : charge face à la capacité, réalisé face au prévisionnel, commandes par article, avec des seuils d'alerte configurables."
   page_icon: ph:bold/gauge
   intro: >-
     Les graphiques d'un écran de pilotage de production, sur des chiffres
@@ -61,6 +63,7 @@ fr:
 
 zh:
   page_title: ' steering'
+  page_description: "以图表构成的生产管控屏：负荷对比产能、实际对比预测、各物料的订单，并可配置预警阈值。"
   page_icon: 'ph:bold/gauge'
   intro: 生产引导屏幕由图表组成，这些图表基于虚构数据：每组织机的负载与其容量的对比，产出与预测的对比，以及每个项目在其表格行中的订单。
   section:
@@ -81,6 +84,7 @@ zh:
 
 ar:
   page_title: التوجيه
+  page_description: "شاشة متابعة إنتاج بالرسوم البيانية: الحمل مقابل الطاقة، الإنتاج الفعلي مقابل المتوقع، الطلبات لكل صنف، مع عتبات تنبيه قابلة للضبط."
   page_icon: 'ph:bold/gauge'
   intro: 'الرسوم البيانية التي تتكون منها شاشة توجيه الإنتاج، بناءً على أرقام وهمية: الحمل لكل مجموعة نول مقابل طاقتها، الإنتاج مقابل توقعاته، وطلبات كل عنصر في صفه الجدولي.'
   section:
@@ -101,6 +105,7 @@ ar:
 
 hi:
   page_title: स्टीयरिंग
+  page_description: "चार्ट में उत्पादन नियंत्रण स्क्रीन: क्षमता के मुकाबले लोड, पूर्वानुमान के मुकाबले उत्पादन, हर आइटम के ऑर्डर, और कॉन्फ़िगर करने योग्य चेतावनी सीमाएँ।"
   page_icon: 'ph:bold/gauge'
   intro: 'चार्ट जो एक उत्पादन स्टीयरिंग स्क्रीन में होते हैं, काल्पनिक आंकड़ों पर: प्रत्येक लूम समूह का लोड उसकी क्षमता के मुकाबले, उत्पादन उसकी भविष्यवाणी के मुकाबले, और प्रत्येक आइटम के आदेश उसकी तालिका पंक्ति में।'
   section:
@@ -121,6 +126,7 @@ hi:
 
 he:
   page_title: היגוי
+  page_description: "מסך בקרת ייצור בתרשימים: עומס מול קיבולת, תפוקה מול תחזית, הזמנות לכל פריט, עם ספי אזהרה ניתנים להגדרה."
   page_icon: 'ph:bold/gauge'
   intro: 'התרשימים שמסך ההיגוי של הייצור עשוי מהם, על נתונים מומצאים: העומס של כל קבוצת טוויה מול הקיבולת שלה, התפוקה מול התחזית שלה, וההזמנות של כל פריט בשורת הטבלה שלו.'
   section:
@@ -141,6 +147,7 @@ he:
 
 fa:
   page_title: هدایت
+  page_description: "صفحه پایش تولید با نمودار: بار در برابر ظرفیت، تولید واقعی در برابر پیش‌بینی، سفارش‌ها برای هر قلم، با آستانه‌های هشدار قابل تنظیم."
   page_icon: 'ph:bold/gauge'
   intro: 'نمودارهایی که صفحه هدایت تولید از اعداد تخیلی تشکیل شده است: بار هر گروه بافندگی در مقابل ظرفیت آن، خروجی در مقابل پیش‌بینی و سفارشات هر مورد در ردیف جدول آن.'
   section:
@@ -161,6 +168,7 @@ fa:
 
 ur:
   page_title: اسٹیئرنگ
+  page_description: "چارٹس میں پیداوار کی نگرانی کی اسکرین: صلاحیت کے مقابلے میں بوجھ، پیشگوئی کے مقابلے میں پیداوار، ہر آئٹم کے آرڈرز، قابلِ ترتیب انتباہی حدوں کے ساتھ۔"
   page_icon: 'ph:bold/gauge'
   intro: 'چارٹس جو ایک پروڈکشن اسٹیئرنگ اسکرین تشکیل دیتے ہیں، فرضی اعداد و شمار پر: ہر لوم گروپ کا بوجھ اس کی صلاحیت کے مقابلے میں، پیداوار اس کی پیشگوئی کے مقابلے میں، اور ہر آئٹم کے آرڈر اس کی ٹیبل کی قطار میں۔'
   section:
@@ -181,6 +189,7 @@ ur:
 
 ja:
   page_title: 操縦
+  page_description: "グラフで構成した生産管理画面：能力に対する負荷、予測に対する実績、品目ごとの受注を、設定可能な警告しきい値とともに表示。"
   page_icon: 'ph:bold/gauge'
   intro: 架空の数字に基づいた生産操縦画面のチャート：各織機グループの負荷とそのキャパシティ、実績と予測、各アイテムのテーブル行における注文。
   section:
@@ -201,6 +210,7 @@ ja:
 
 ko:
   page_title: 조타
+  page_description: "차트로 구성한 생산 관제 화면: 용량 대비 부하, 예측 대비 실적, 품목별 주문을 설정 가능한 경고 임계값과 함께."
   page_icon: 'ph:bold/gauge'
   intro: '생성된 수치에 대한 생산 조타 화면으로 구성된 차트: 각 직조기 그룹의 하중과 용량, 실제 생산량과 예측량, 그리고 각 항목의 주문이 테이블 행에 표시됩니다.'
   section:
@@ -221,6 +231,7 @@ ko:
 
 bn:
   page_title: স্টিয়ারিং
+  page_description: "চার্টে উৎপাদন নিয়ন্ত্রণ স্ক্রিন: ক্ষমতার বিপরীতে লোড, পূর্বাভাসের বিপরীতে উৎপাদন, প্রতিটি আইটেমের অর্ডার, কনফিগারযোগ্য সতর্কতা সীমাসহ।"
   page_icon: 'ph:bold/gauge'
   intro: 'একটি উৎপাদন স্টিয়ারিং স্ক্রীনের চার্টগুলি, কল্পিত পরিসংখ্যানের উপর: প্রতিটি লুম গ্রুপের লোড তার সক্ষমতার বিপরীতে, আউটপুট তার পূর্বাভাসের বিপরীতে, এবং প্রতিটি আইটেমের অর্ডার তার টেবিলের সারিতে।'
   section:
@@ -241,6 +252,7 @@ bn:
 
 th:
   page_title: พวงมาลัย
+  page_description: "หน้าจอควบคุมการผลิตด้วยแผนภูมิ: ภาระงานเทียบกำลังการผลิต ผลผลิตเทียบการคาดการณ์ คำสั่งซื้อต่อรายการ พร้อมเกณฑ์แจ้งเตือนที่ปรับได้"
   page_icon: 'ph:bold/gauge'
   intro: 'กราฟที่หน้าจอการควบคุมการผลิตสร้างขึ้นจากข้อมูลที่สมมติขึ้น: โหลดของแต่ละกลุ่มเครื่องทอเมื่อเปรียบเทียบกับความจุ, ผลผลิตเมื่อเปรียบเทียบกับการคาดการณ์, และคำสั่งของแต่ละรายการในแถวตารางของมัน.'
   section:
@@ -261,6 +273,7 @@ th:
 
 de:
   page_title: Steuerung
+  page_description: "Ein Produktionssteuerungs-Dashboard in Diagrammen: Auslastung gegen Kapazität, Ist gegen Prognose, Aufträge je Artikel, mit einstellbaren Warnschwellen."
   page_icon: 'ph:bold/gauge'
   intro: 'Die Diagramme eines Produktionssteuerungsbildschirms basieren auf fiktiven Zahlen: die Auslastung jeder Webmaschinen-Gruppe im Vergleich zu ihrer Kapazität, die Produktion im Vergleich zur Prognose und die Bestellungen jedes Artikels in seiner Tabellenzeile.'
   section:
@@ -281,6 +294,7 @@ de:
 
 fi:
   page_title: Ohjaus
+  page_description: "Tuotannonohjausnäkymä kaavioina: kuormitus suhteessa kapasiteettiin, toteuma suhteessa ennusteeseen, tilaukset nimikkeittäin, säädettävin varoitusrajoin."
   page_icon: 'ph:bold/gauge'
   intro: 'Kaaviot, joista tuotannon ohjausnäyttö koostuu, kuvitteellisten lukujen perusteella: jokaisen kankaan ryhmän kuormitus verrattuna sen kapasiteettiin, tuotanto verrattuna ennusteeseen ja jokaisen kohteen tilaukset sen taulukon rivissä.'
   section:
@@ -301,6 +315,7 @@ fi:
 
 ru:
   page_title: Управление
+  page_description: "Экран управления производством в графиках: загрузка против мощности, факт против прогноза, заказы по позициям, с настраиваемыми порогами предупреждений."
   page_icon: 'ph:bold/gauge'
   intro: 'Графики на экране управления производством, основанные на придуманных данных: нагрузка каждой группы ткацких станков по сравнению с её ёмкостью, фактический выпуск по сравнению с прогнозом и заказы на каждый товар в строке таблицы.'
   section:
@@ -321,6 +336,7 @@ ru:
 
 pl:
   page_title: Sterowanie
+  page_description: "Ekran sterowania produkcją na wykresach: obciążenie wobec zdolności, wykonanie wobec prognozy, zamówienia na pozycję, z konfigurowalnymi progami ostrzeżeń."
   page_icon: 'ph:bold/gauge'
   intro: 'Wykresy, z których składa się ekran sterowania produkcją, na wymyślonych danych: obciążenie każdej grupy krosien w stosunku do jej pojemności, produkcja w stosunku do prognozy oraz zamówienia każdego przedmiotu w jego wierszu tabeli.'
   section:
@@ -341,6 +357,7 @@ pl:
 
 es:
   page_title: Dirección
+  page_description: "Una pantalla de control de producción en gráficos: carga frente a capacidad, real frente a previsión, pedidos por artículo, con umbrales de alerta configurables."
   page_icon: 'ph:bold/gauge'
   intro: 'Los gráficos de una pantalla de dirección de producción se componen de cifras inventadas: la carga de cada grupo de telares frente a su capacidad, la producción frente a su pronóstico y los pedidos de cada artículo en su fila de tabla.'
   section:
@@ -361,6 +378,7 @@ es:
 
 it:
   page_title: Sterzo
+  page_description: "Una schermata di controllo della produzione in grafici: carico rispetto alla capacità, consuntivo rispetto alla previsione, ordini per articolo, con soglie di allerta configurabili."
   page_icon: 'ph:bold/gauge'
   intro: "I grafici di uno schermo di steering della produzione, su dati inventati: il carico di ciascun gruppo di telai rispetto alla sua capacità, l'output rispetto alla sua previsione e gli ordini di ciascun articolo nella sua riga della tabella."
   section:
@@ -381,6 +399,7 @@ it:
 
 pt_BR:
   page_title: Direção
+  page_description: "Uma tela de controle de produção em gráficos: carga frente à capacidade, realizado frente ao previsto, pedidos por item, com limites de alerta configuráveis."
   page_icon: 'ph:bold/gauge'
   intro: 'Os gráficos de uma tela de direção de produção são baseados em dados fictícios: a carga de cada grupo de tear em relação à sua capacidade, a produção em relação à sua previsão, e os pedidos de cada item em sua linha da tabela.'
   section:
@@ -401,6 +420,7 @@ pt_BR:
 
 tr:
   page_title: Direksiyon
+  page_description: "Grafiklerle bir üretim yönetim ekranı: kapasiteye karşı yük, tahmine karşı gerçekleşen, kalem başına siparişler, ayarlanabilir uyarı eşikleriyle."
   page_icon: 'ph:bold/gauge'
   intro: 'Bir üretim direksiyon ekranının oluşturduğu grafikler, uydurma verilere dayanmaktadır: her dokuma grubu için yük karşısında kapasitesi, çıktının tahminine karşı durumu ve her öğenin tablo satırındaki siparişleri.'
   section:
@@ -421,6 +441,7 @@ tr:
 
 vi:
   page_title: 'Lái xe'
+  page_description: "Màn hình điều hành sản xuất bằng biểu đồ: tải so với công suất, thực tế so với dự báo, đơn hàng theo mặt hàng, với ngưỡng cảnh báo tùy chỉnh."
   page_icon: 'ph:bold/gauge'
   intro: 'Các biểu đồ của màn hình lái xe sản xuất được tạo ra từ số liệu giả: tải trọng của mỗi nhóm máy dệt so với khả năng của nó, sản lượng so với dự đoán, và đơn hàng của từng mặt hàng trong hàng của nó.'
   section:
@@ -441,6 +462,7 @@ vi:
 
 id:
   page_title: Pengendalian
+  page_description: "Layar kendali produksi dalam grafik: beban terhadap kapasitas, realisasi terhadap perkiraan, pesanan per item, dengan ambang peringatan yang dapat diatur."
   page_icon: 'ph:bold/gauge'
   intro: 'Grafik yang terdiri dari layar pengendalian produksi, berdasarkan angka yang dibuat-buat: beban setiap kelompok tenun dibandingkan dengan kapasitasnya, output dibandingkan dengan perkiraannya, dan pesanan setiap item dalam baris tabelnya.'
   section:
@@ -461,6 +483,7 @@ id:
 
 nl:
   page_title: Sturing
+  page_description: "Een productiestuurscherm in grafieken: belasting tegenover capaciteit, realisatie tegenover prognose, orders per artikel, met instelbare waarschuwingsdrempels."
   page_icon: 'ph:bold/gauge'
   intro: 'De grafieken waaruit een productie stuurscherm is opgebouwd, op verzonnen cijfers: de belasting van elke weefgroep tegen zijn capaciteit, de output tegen zijn prognose, en de bestellingen van elk item in zijn tabelrij.'
   section:
