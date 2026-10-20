@@ -1,5 +1,6 @@
 en:
   page_title: Steering
+  document_title: "Production steering dashboard in charts"
   page_description: "A production steering screen in charts: load against capacity, output against forecast, orders per item, with configurable warning thresholds."
   page_icon: ph:bold/gauge
   intro: >-

@@ -1,5 +1,6 @@
 en:
   page_title: Charts
+  document_title: "Interactive SVG charts with ECharts"
   page_description: "Interactive charts drawn with ECharts in SVG — line, area, bar and more — coloured by the design system, in light and dark, in the page's language."
   page_icon: ph:bold/chart-line
   intro: >-
