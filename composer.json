@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-charts-demo",
   "description": "Demo pages of symfony-charts",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -25,7 +25,7 @@
     "wexample/symfony-charts": ">=4.0.0",
     "wexample/symfony-charts-ds": ">=5.0.0",
     "wexample/symfony-design-system": ">=40.0.0",
-    "wexample/symfony-helpers": ">=19.0.0",
+    "wexample/symfony-helpers": ">=19.1.0",
     "wexample/symfony-loader": ">=25.3.0"
   },
   "require-dev": {
