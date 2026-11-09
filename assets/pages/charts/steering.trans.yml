@@ -23,6 +23,13 @@ en:
       description: >-
         Six months of orders drawn on the server, the last three highlighted: a
         table of three thousand rows runs no script for them.
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Item
     orders: Orders, 6 months
@@ -45,6 +52,13 @@ fr:
     sparkline:
       title: 'Une sparkline par ligne'
       description: "Six mois de commandes dessinés côté serveur, les trois derniers mis en évidence : un tableau de trois mille lignes n'exécute aucun script pour elles."
+    key_figures:
+      title: "Chiffres clés"
+      description: "Un chiffre du design system — son libellé, sa valeur, son évolution — et à son pied sa courbe sur la période, de la largeur de la carte : chart_sparkline avec fluid, la ligne discrète, la dernière valeur un point."
+  key_figure:
+    requests: "Requêtes"
+    sessions: "Sessions"
+    errors: "Erreurs"
   column:
     sku: Article
     orders: 'Commandes, 6 mois'
@@ -67,6 +81,13 @@ zh:
     sparkline:
       title: 每行一个微型图
       description: 服务器上绘制的六个月订单，最后三个月高亮显示：三千行的表格不会为它们运行任何脚本。
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: 项目
     orders: 订单，6个月
@@ -89,6 +110,13 @@ ar:
     sparkline:
       title: 'خط صغير لكل صف'
       description: 'ستة أشهر من الطلبات مرسومة على الخادم، تم تمييز الثلاثة الأخيرة: جدول مكون من ثلاثة آلاف صف لا يحتاج إلى أي سكربت لهم.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: العنصر
     orders: 'الطلبات، 6 أشهر'
@@ -111,6 +139,13 @@ hi:
     sparkline:
       title: 'प्रत्येक पंक्ति के लिए एक स्पार्कलाइन'
       description: 'सर्वर पर छह महीनों के आदेश, अंतिम तीन हाइलाइटेड: तीन हजार पंक्तियों की एक तालिका उनके लिए कोई स्क्रिप्ट नहीं चलाती।'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: आइटम
     orders: 'आदेश, 6 महीने'
@@ -133,6 +168,13 @@ he:
     sparkline:
       title: 'ספראקלין לכל שורה'
       description: 'שישה חודשים של הזמנות מצויירות על השרת, שלושת האחרונות מודגשות: טבלה של שלושת אלפים שורות לא מריצה סקריפט עבורן.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: פריט
     orders: 'הזמנות, 6 חודשים'
@@ -155,6 +197,13 @@ fa:
     sparkline:
       title: 'یک اسپارک‌لاین برای هر ردیف'
       description: 'شش ماه سفارشات که روی سرور ترسیم شده‌اند، آخرین سه مورد هایلایت شده‌اند: یک جدول سه هزار ردیفی برای آنها هیچ اسکریپتی اجرا نمی‌کند.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: مورد
     orders: 'سفارشات، 6 ماه'
@@ -177,6 +226,13 @@ ur:
     sparkline:
       title: 'ہر قطار کے لیے ایک اسپارک لائن'
       description: 'سرور پر چھ مہینے کے آرڈرز، آخری تین نمایاں: تین ہزار قطاروں کی ایک ٹیبل ان کے لیے کوئی اسکرپٹ نہیں چلاتی۔'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: آئٹم
     orders: 'آرڈرز، 6 مہینے'
@@ -199,6 +255,13 @@ ja:
     sparkline:
       title: 行ごとのスパークライン
       description: サーバー上で描かれた6か月の注文、最後の3つが強調表示されている：三千行のテーブルはそれらのためにスクリプトを実行しない。
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: アイテム
     orders: 注文、6か月
@@ -221,6 +284,13 @@ ko:
     sparkline:
       title: '행당 스파크라인'
       description: '서버에서 그려진 6개월의 주문, 마지막 3개가 강조 표시됩니다: 3,000개의 행으로 구성된 테이블은 이를 위한 스크립트를 실행하지 않습니다.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: 항목
     orders: '주문, 6개월'
@@ -243,6 +313,13 @@ bn:
     sparkline:
       title: 'প্রতি সারিতে একটি স্পার্কলাইন'
       description: 'সার্ভারে অর্ডারের ছয় মাস, শেষ তিনটি হাইলাইট করা: তিন হাজার সারির একটি টেবিল তাদের জন্য কোন স্ক্রিপ্ট চালায় না।'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: আইটেম
     orders: 'অর্ডার, ৬ মাস'
@@ -265,6 +342,13 @@ th:
     sparkline:
       title: สปาร์คไลน์ต่อแถว
       description: 'คำสั่งหกเดือนที่วาดบนเซิร์ฟเวอร์ โดยสามเดือนสุดท้ายโดดเด่น: ตารางที่มีสามพันแถวจะไม่รันสคริปต์สำหรับพวกเขา.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: รายการ
     orders: 'คำสั่ง, 6 เดือน'
@@ -287,6 +371,13 @@ de:
     sparkline:
       title: 'Ein Sparkline pro Zeile'
       description: 'Sechs Monate Bestellungen, die auf dem Server dargestellt werden, die letzten drei hervorgehoben: Eine Tabelle mit dreitausend Zeilen läuft kein Skript für sie.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Artikel
     orders: 'Bestellungen, 6 Monate'
@@ -309,6 +400,13 @@ fi:
     sparkline:
       title: 'Sparklines jokaiselle riville'
       description: 'Kuusi kuukautta tilauksia, jotka on piirretty palvelimelle, viimeiset kolme korostettuna: kolmen tuhannen rivin taulukko ei suorita skriptiä niiden osalta.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Tuote
     orders: 'Tilaukset, 6 kuukautta'
@@ -331,6 +429,13 @@ ru:
     sparkline:
       title: 'Мини-график для каждой строки'
       description: 'Заказы за шесть месяцев, отображённые на сервере, последние три выделены: таблица из трёх тысяч строк не запускает для них скрипт.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Товар
     orders: 'Заказы, 6 месяцев'
@@ -353,6 +458,13 @@ pl:
     sparkline:
       title: 'Sparklina dla każdego wiersza'
       description: 'Sześć miesięcy zamówień rysowanych na serwerze, ostatnie trzy wyróżnione: tabela z trzema tysiącami wierszy nie uruchamia skryptu dla nich.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Przedmiot
     orders: 'Zamówienia, 6 miesięcy'
@@ -375,6 +487,13 @@ es:
     sparkline:
       title: 'Una línea de sparkline por fila'
       description: 'Seis meses de pedidos dibujados en el servidor, los últimos tres destacados: una tabla de tres mil filas no ejecuta ningún script para ellos.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Artículo
     orders: 'Pedidos, 6 meses'
@@ -397,6 +516,13 @@ it:
     sparkline:
       title: 'Uno sparkline per riga'
       description: 'Sei mesi di ordini tracciati sul server, gli ultimi tre evidenziati: una tabella di tremila righe non esegue script per loro.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Articolo
     orders: 'Ordini, 6 mesi'
@@ -419,6 +545,13 @@ pt_BR:
     sparkline:
       title: 'Uma sparkline por linha'
       description: 'Seis meses de pedidos desenhados no servidor, os últimos três destacados: uma tabela de três mil linhas não executa script para eles.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Item
     orders: 'Pedidos, 6 meses'
@@ -441,6 +574,13 @@ tr:
     sparkline:
       title: 'Her satır için bir sparkline'
       description: 'Sunucuda çizilmiş altı aylık siparişler, son üçü vurgulanmış: üç bin satırlık bir tablo için onlara hiçbir betik çalıştırılmaz.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Öğe
     orders: 'Siparişler, 6 ay'
@@ -463,6 +603,13 @@ vi:
     sparkline:
       title: 'Một sparkline cho mỗi hàng'
       description: 'Sáu tháng đơn hàng được vẽ trên máy chủ, ba tháng cuối được làm nổi bật: một bảng ba nghìn hàng không chạy script cho chúng.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: 'Mặt hàng'
     orders: 'Đơn hàng, 6 tháng'
@@ -485,6 +632,13 @@ id:
     sparkline:
       title: 'Sebuah sparkline per baris'
       description: 'Enam bulan pesanan yang digambar di server, tiga bulan terakhir disorot: sebuah tabel dengan tiga ribu baris tidak menjalankan skrip untuk mereka.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Item
     orders: 'Pesanan, 6 bulan'
@@ -507,6 +661,13 @@ nl:
     sparkline:
       title: 'Een sparkline per rij'
       description: 'Zes maanden aan bestellingen getekend op de server, de laatste drie gemarkeerd: een tabel van drie duizend rijen draait geen script voor hen.'
+    key_figures:
+      title: "Key figures"
+      description: "A figure of the design system — its label, its value, how it moved — and at its foot its line over the period, as wide as the card: chart_sparkline with fluid, the line quiet, the last value a dot."
+  key_figure:
+    requests: "Requests"
+    sessions: "Sessions"
+    errors: "Errors"
   column:
     sku: Item
     orders: 'Bestellingen, 6 maanden'

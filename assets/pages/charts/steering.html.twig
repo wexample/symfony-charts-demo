@@ -44,4 +44,25 @@
     }), {
         striped: true,
     }) }}
+
+    <h2>{{ '@page::section.key_figures.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.key_figures.description' | trans }}</div>
+    {#- A key figure of the design system, its trend under the value and its
+        line over the period at its foot, as wide as the card. -#}
+    <div class="grid">
+        {%- for kpi in [
+            { key: 'requests', value: '4 812', trend: '+12 %', way: 'up', points: [31, 34, 33, 38, 35, 40, 39, 42, 41, 44, 43, 47] },
+            { key: 'sessions', value: '1 205', trend: '+3 %', way: 'up', points: [20, 22, 21, 21, 23, 22, 24, 23, 24, 25, 24, 25] },
+            { key: 'errors', value: '17', trend: '−28 %', way: 'up', points: [30, 28, 31, 26, 25, 27, 22, 21, 20, 19, 18, 17] },
+        ] -%}
+            <div class="block block--card">
+                <div class="block--figure block--figure--start">
+                    <span class="block--figure-label">{{ ('@page::key_figure.' ~ kpi.key) | trans }}</span>
+                    <span class="block--figure-value">{{ kpi.value }}</span>
+                    <span class="block--figure-trend block--figure-trend--{{ kpi.way }}">{{ kpi.trend }}</span>
+                    {{ chart_sparkline(kpi.points, { fluid: true, height: 28, label: ('@page::key_figure.' ~ kpi.key) | trans, class: 'block--figure-chart' }) }}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
 {%- endblock -%}
