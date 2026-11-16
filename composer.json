@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-charts-demo",
   "description": "Demo pages of symfony-charts",
-  "version": "2.0.22",
+  "version": "2.0.23",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -22,11 +22,11 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-charts": ">=4.1.0",
+    "wexample/symfony-charts": ">=5.0.0",
     "wexample/symfony-charts-ds": ">=5.1.0",
-    "wexample/symfony-design-system": ">=44.0.0",
-    "wexample/symfony-helpers": ">=19.1.0",
-    "wexample/symfony-loader": ">=27.2.0"
+    "wexample/symfony-design-system": ">=45.0.0",
+    "wexample/symfony-helpers": ">=19.3.0",
+    "wexample/symfony-loader": ">=28.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^13"
