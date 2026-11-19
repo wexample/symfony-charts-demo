@@ -31,6 +31,9 @@ en:
     histogram:
       title: Histogram
       description: Three hundred yields, in twelve bins of equal width.
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: Fed by the api
       description: >-
@@ -80,6 +83,9 @@ fr:
     histogram:
       title: Histogramme
       description: 'Trois cents rendements, en douze classes de même largeur.'
+    heatmap:
+      title: Carte de chaleur
+      description: "Deux variables croisées — un modèle par colonne, une température par ligne —, chaque case colorée par son taux de réussite ; une combinaison pas encore jugée reste grise. Une case pressée est dite à la page (`chart-cell`)."
     endpoint:
       title: "Alimenté par l'api"
       description: "Une source au lieu des données : le graphique lit les points de ce graphique par le repository ChartPoint généré, depuis un fournisseur que la démo déclare — la route de toute liste d'entités de la stack."
@@ -126,6 +132,9 @@ zh:
     histogram:
       title: 直方图
       description: 三百个产出，分为十二个等宽的区间。
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: '由 API 提供数据'
       description: '给定一个数据源而非数据：图表通过生成的 ChartPoint 仓库读取该图表的点，来自演示声明的提供者 — 堆栈中每个实体列表的路径。'
@@ -172,6 +181,9 @@ ar:
     histogram:
       title: 'التوزيع التكراري'
       description: 'ثلاثمائة عائد، في اثني عشر حاوية ذات عرض متساوي.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'مدعوم من واجهة برمجة التطبيقات'
       description: 'يتم إعطاء مصدر بدلاً من البيانات: يقرأ المخطط النقاط من ذلك المخطط من خلال مستودع ChartPoint الذي تم إنشاؤه، من مزود تعلن عنه العرض — الطريق الذي تأخذه كل قائمة كيان في المكدس.'
@@ -218,6 +230,9 @@ hi:
     histogram:
       title: हिस्टोग्राम
       description: 'तीस सौ उपज, बारह समान चौड़ाई के बिन में।'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'एपीआई द्वारा प्रदान किया गया'
       description: 'डेटा के बजाय एक स्रोत दिया गया: चार्ट उस चार्ट के पॉइंट को जनरेटेड ChartPoint रिपॉजिटरी के माध्यम से पढ़ता है, एक प्रदाता से जो डेमो घोषित करता है — स्टैक का हर एंटिटी सूची का रास्ता।'
@@ -264,6 +279,9 @@ he:
     histogram:
       title: היסטוגרמה
       description: 'שלוש מאות תפוקות, בשנים עשר תיבות ברוחב שווה.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'מוזן על ידי ה-api'
       description: 'נכון מקור במקום נתונים: התרשים קורא את הנקודות של התרשים הזה דרך מאגר ChartPoint שנוצר, מספק שהדמו מצהיר — הדרך של כל רשימת ישות של הערימה.'
@@ -310,6 +328,9 @@ fa:
     histogram:
       title: هیستوگرام
       description: 'سیصد محصول، در دوازده سبد با عرض مساوی.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'تأمین شده توسط API'
       description: 'با توجه به یک منبع به جای داده‌ها: نمودار نقاط آن نمودار را از طریق مخزن ChartPoint تولید شده می‌خواند، از یک ارائه‌دهنده که دموی اعلام می‌کند — جاده‌ای که هر لیست موجودیت از انباشته می‌گیرد.'
@@ -356,6 +377,9 @@ ur:
     histogram:
       title: ہسٹگرام
       description: 'تین سو پیداوار، بارہ برابر چوڑائی کے بنز میں۔'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'API کے ذریعے فراہم کردہ'
       description: 'ڈیٹا کے بجائے ایک ماخذ دیا گیا: چارٹ اس چارٹ کے پوائنٹس کو تیار کردہ ChartPoint ریپوزٹری کے ذریعے پڑھتا ہے، جسے ایک فراہم کنندہ ڈیمو میں بیان کرتا ہے — ہر ہستی کی فہرست جو اسٹیک لیتا ہے۔'
@@ -402,6 +426,9 @@ ja:
     histogram:
       title: ヒストグラム
       description: 300の収穫が12の等幅のビンに分けられています。
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: APIから供給される
       description: 'データの代わりにソースを与える：チャートは、デモが宣言したプロバイダーから生成されたChartPointリポジトリを通じて、そのチャートのポイントを読み取ります — スタックの各エンティティリストの進む道。'
@@ -448,6 +475,9 @@ ko:
     histogram:
       title: 히스토그램
       description: '300개의 결과, 12개의 동일한 너비의 구간으로 나누어짐.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'API를 통해 제공됨'
       description: '데이터 대신 소스를 제공함: 차트는 생성된 ChartPoint 리포지토리를 통해 해당 차트의 포인트를 읽고, 데모가 선언한 제공자로부터 가져옵니다 — 스택의 모든 엔티티 목록이 가는 경로.'
@@ -494,6 +524,9 @@ bn:
     histogram:
       title: হিস্টোগ্রাম
       description: 'তিনশো ফলন, বারোটি সমান প্রস্থের বিনে।'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'এপিআই দ্বারা সরবরাহিত'
       description: 'ডেটার পরিবর্তে একটি সোর্স দেওয়া হয়েছে: চার্টটি সেই চার্টের পয়েন্টগুলি উৎপন্ন ChartPoint রিপোজিটরি থেকে পড়ে, একটি প্রদায়ক যা ডেমো ঘোষণা করে — স্ট্যাকের প্রতিটি সত্তার তালিকার পথে।'
@@ -540,6 +573,9 @@ th:
     histogram:
       title: ฮิสโตแกรม
       description: 'สามร้อยผลผลิต, ในสิบสองช่องที่มีความกว้างเท่ากัน.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'จัดเตรียมโดย API'
       description: 'ให้แหล่งข้อมูลแทนที่จะเป็นข้อมูล: กราฟอ่านจุดของกราฟนั้นผ่านที่เก็บ ChartPoint ที่สร้างขึ้น, จากผู้ให้บริการที่เดโมประกาศ — เส้นทางที่รายการของเอนทิตีในสแต็กแต่ละรายการใช้.'
@@ -586,6 +622,9 @@ de:
     histogram:
       title: Histogramm
       description: 'Dreihundert Erträge, in zwölf Bins gleicher Breite.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Über die API gespeist'
       description: 'Eine Quelle anstelle von Daten angegeben: das Diagramm liest die Punkte dieses Diagramms über das generierte ChartPoint-Repository, von einem Anbieter, den die Demo deklariert — der Weg, den jede Entitätenliste des Stacks nimmt.'
@@ -632,6 +671,9 @@ fi:
     histogram:
       title: Histogrammi
       description: 'Kolmesataa tuottoa, kahdessatoista yhtä leveässä laatikossa.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'API:n syöttämä'
       description: 'Annettu lähde datan sijaan: kaavio lukee sen kaavion pisteet luodun ChartPoint-rekisterin kautta, tarjoajalta, jonka demo ilmoittaa — tie, jota jokaisen entiteettilistauksen pino kulkee.'
@@ -678,6 +720,9 @@ ru:
     histogram:
       title: Гистограмма
       description: 'Триста доходов, в двенадцати бинах равной ширины.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Питается от api'
       description: 'Указан источник вместо данных: график считывает точки этого графика через сгенерированный репозиторий ChartPoint, от провайдера, который объявляет демонстрация — путь, который принимает каждый список сущностей стека.'
@@ -724,6 +769,9 @@ pl:
     histogram:
       title: Histogram
       description: 'Trzysta wyników, w dwunastu przedziałach o równej szerokości.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Zasilane przez API'
       description: 'Podano źródło zamiast danych: wykres odczytuje punkty tego wykresu przez wygenerowaną repozytorium ChartPoint, z dostawcy, który demon deklaruje — droga, którą każda lista encji stosu podąża.'
@@ -770,6 +818,9 @@ es:
     histogram:
       title: Histograma
       description: 'Trescientos rendimientos, en doce intervalos de igual ancho.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Alimentado por la api'
       description: 'Dada una fuente en lugar de datos: el gráfico lee los puntos de ese gráfico a través del repositorio de ChartPoint generado, de un proveedor que la demostración declara — el camino que cada lista de entidades de la pila toma.'
@@ -816,6 +867,9 @@ it:
     histogram:
       title: Istogramma
       description: 'Trecento rendimenti, in dodici intervalli di uguale larghezza.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: "Alimentato dall'api"
       description: 'Data una sorgente invece dei dati: il grafico legge i punti di quel grafico attraverso il repository ChartPoint generato, da un provider che la demo dichiara — il percorso che ogni elenco di entità dello stack prende.'
@@ -862,6 +916,9 @@ pt_BR:
     histogram:
       title: Histograma
       description: 'Trezentos rendimentos, em doze bins de largura igual.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Alimentado pela api'
       description: 'Dada uma fonte em vez de dados: o gráfico lê os pontos daquele gráfico através do repositório ChartPoint gerado, de um provedor que a demonstração declara — o caminho que cada lista de entidades do stack toma.'
@@ -908,6 +965,9 @@ tr:
     histogram:
       title: Histogram
       description: 'Eşit genişlikte on iki kutucukta üç yüz verim.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'API tarafından sağlanan'
       description: 'Veri yerine bir kaynak verildiğinde: grafik, demo tarafından belirtilen bir sağlayıcıdan oluşturulan ChartPoint deposu aracılığıyla o grafiğin noktalarını okur — yığın içindeki her varlık listesinin aldığı yol.'
@@ -954,6 +1014,9 @@ vi:
     histogram:
       title: 'Biểu đồ tần suất'
       description: 'Ba trăm sản phẩm, trong mười hai khung có chiều rộng bằng nhau.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Được cung cấp bởi api'
       description: 'Cung cấp một nguồn thay vì dữ liệu: biểu đồ đọc các điểm của biểu đồ đó thông qua kho lưu trữ ChartPoint được tạo ra, từ một nhà cung cấp mà bản demo tuyên bố — con đường mà mỗi danh sách thực thể của ngăn xếp lấy.'
@@ -1000,6 +1063,9 @@ id:
     histogram:
       title: Histogram
       description: 'Tiga ratus hasil, dalam dua belas bin dengan lebar yang sama.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Diberi oleh api'
       description: 'Diberikan sumber sebagai ganti data: grafik membaca titik-titik grafik tersebut melalui repositori ChartPoint yang dihasilkan, dari penyedia yang dideklarasikan demo — jalan yang diambil setiap daftar entitas dari tumpukan.'
@@ -1046,6 +1112,9 @@ nl:
     histogram:
       title: Histogram
       description: 'Driehonderd opbrengsten, in twaalf bakken van gelijke breedte.'
+    heatmap:
+      title: Heatmap
+      description: "Two variables crossed — a model a column, a temperature a row —, each cell coloured by its pass rate; a combination not judged yet stays grey. A cell pressed is told to the page (`chart-cell`)."
     endpoint:
       title: 'Voed door de api'
       description: 'Gegeven een bron in plaats van data: de grafiek leest de punten van die grafiek via de gegenereerde ChartPoint repository, van een provider die de demo verklaart — de weg die elke entiteitenlijst van de stack neemt.'
