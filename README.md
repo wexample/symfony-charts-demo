@@ -1,6 +1,6 @@
 # symfony-charts-demo
 
-Version: 2.0.32
+Version: 2.0.33
 
 Demo pages of symfony-charts
 
